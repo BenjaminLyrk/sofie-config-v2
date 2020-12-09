@@ -1,0 +1,51 @@
+#myNavRow2 ul {
+  bottom: 50px;
+}
+#myNav ul {
+  bottom: 0px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  padding: 0px 30px 0px 30px;
+  border-top: 1px solid #252525;
+}
+
+.nav li {
+  float: left;
+  border-right: 1px solid #252525;
+}
+
+.nav li:last-child {
+  /* border-right: none; */
+}
+
+.nav li a {
+  display: block;
+  width: 100px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #333;
+}
+
+.nav .active {
+  background-color: #434343;
+}
+
+.subNavOn {
+  display: block;
+}
+.subNavOff {
+  display: none;
+}

@@ -1,0 +1,38 @@
+{
+  "content": {
+    "galleries": [
+      {
+        "id": "4000",
+        "name": "AFV D",
+        "devices": [
+          {
+            "id": "4002",
+            "name": "graphic",
+            "area": [
+              {
+                "setup": {
+                  "param": [
+                    {
+                      "#DEVIDER#1": "SETTINGS",
+                      "ip": "192.168.1.1",
+                      "default folder": "/Triton/Sofie/atem "
+                    }
+                  ]
+                },
+                "setup2": {
+                  "param": [
+                    {
+                      "#DEVIDER#1": "SETTINGS",
+                      "ip": "192.168.1.1",
+                      "default folder": "/Triton/Sofie/atem "
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

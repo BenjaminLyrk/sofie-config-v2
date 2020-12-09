@@ -1,0 +1,195 @@
+html,
+body {
+  text-align: center;
+  background-color: #353535;
+  color: white;
+  height: 100%;
+}
+
+.pageWrapper {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+  height: 100%;
+}
+
+div.App {
+  width: 1500px;
+  height: 730px;
+  overflow: hidden;
+  border: 1px solid #666;
+  position: relative;
+}
+.App-header h1 {
+  text-align: left;
+  font-size: 16px;
+  padding-left: 30px;
+  display: none;
+}
+.App-header {
+  min-height: 20px;
+}
+.pageWrapper {
+  text-align: left;
+}
+.col1 {
+  width: 250px;
+  padding: 10px;
+}
+.col2 {
+  width: 250px;
+  padding: 10px;
+}
+
+.col3 {
+  width: 250px;
+  padding: 10px;
+}
+.home .col3 {
+  width: 400px;
+  padding: 10px;
+}
+.col4 {
+  width: 250px;
+  padding: 10px;
+}
+.colInfo {
+  width: 400px;
+  padding: 10px;
+}
+
+/*buttons*/
+div.btn-group {
+  margin-left: 20px;
+  float: left;
+  background-color: #252525;
+  height: 70%;
+  min-width: 100px;
+  overflow: auto;
+}
+.btn-group h2 {
+  text-align: center;
+  margin: 0px;
+  border-bottom: 1px solid #555;
+}
+.btn-group:not(:last-child) {
+  margin-right: 40px;
+}
+.btn-group button {
+  color: white;
+
+  cursor: pointer;
+  width: 80%;
+  height: 40px;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 1px;
+  border: 1px solid #666;
+}
+
+.btnGreen {
+  background-color: #005919;
+  border: 1px solid white;
+}
+.btnGreen:hover,
+.btnGreenDIM,
+.btnGreen.active {
+  background-color: #253f2c;
+  border: 1px solid #fff;
+}
+
+.btnBlue {
+  background-color: #1769ff;
+  border: 1px solid white;
+}
+.btnBlue:hover,
+.btnBlueDim,
+.btnBlue.active {
+  background-color: #2b4471;
+  border: 1px solid white;
+}
+.btnPurple {
+  background-color: #370020;
+  border: 1px solid white;
+}
+.btnPurple:hover,
+.btnPurpleDim {
+  background-color: #35252e;
+  border: 1px solid white;
+}
+
+.btnCyan {
+  background-color: #00a99c;
+  border: 1px solid #999;
+}
+.btnCyan:hover,
+.btnCyanDim {
+  background-color: #255753;
+  border: 1px solid #999;
+}
+.below {
+  background-color: #353535;
+  text-align: center;
+}
+.btnBrowse,
+.btnStart {
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+}
+.btnBrowse {
+  background-color: #1f2021;
+  color: white;
+  padding: 0px;
+}
+.btnStart {
+  background-color: #761912;
+  color: white;
+}
+.btnOrange {
+  background-color: #af4900;
+  color: white;
+}
+.btnOrange:hover,
+.btnOrangeDim {
+  background-color: #573a25;
+  color: white;
+}
+.settingsDiv {
+}
+.settingsDiv .col1,
+.settingsDiv .col2,
+.settingsDiv .col3 {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  border: 1px solid white;
+}
+
+/*info column*/
+DIV.infoKey,
+DIV.infoValue {
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid grey;
+}
+DIV.infoKey {
+  width: 25%;
+}
+DIV.infoValue {
+  width: 68%;
+}
+
+.controlBTN {
+  display: none;
+}
+.controlBTN.active {
+  display: block;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.controlBTN.active button {
+  width: 90px;
+  display: inline;
+  margin: 10px;
+}
