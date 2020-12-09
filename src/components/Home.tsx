@@ -6,27 +6,34 @@ let studios: string[] = ['Studio 3', 'Studio 4', 'Studio 12'];
 let rundowns: string[] = ['SPXRT.ON-AIR', 'SPORTEN.ON-AIR', 'NYHEDERNE-TEST.SOFIE.ON-AIR']; 
 let gui: string[] = ['FLOW GUI', 'TOUCH GUI', 'TEST GUI']; 
 
-
-interface IProps {
+interface IState {
+	text: string,
+  deviceView: string,
+  infoView: string,
+  deviceId: number,
+  galleriId: number,
+  galActive: string,
+  devActive: string
+}
+interface HomeProps {
+  
 }
 
-//define state
-const initialState ={
-  text: 'settings',
-  deviceView: 'defaultView',
-  infoView: 'defaultView',
-  deviceId: 0,
-  galleriId: 0,
-  galActive: '',
-  devActive: ''
-}
-//define the type of state (types mus start with capital)
-type State = Readonly<typeof initialState>
-
-class Home extends React.Component {
-  readonly state: State = initialState;
-   //change state.view from mouseCLick
- changeDevices(e:string, name: string){
+class Home extends React.Component<HomeProps, IState> {
+   constructor(props: HomeProps) {
+    super(props)
+    this.state = {
+      text: 'settings',
+      deviceView: 'defaultView',
+      infoView: 'defaultView',
+      deviceId: 0,
+      galleriId: 0,
+      galActive: '',
+      devActive: ''
+    }
+  }
+  //change state.view from mouseCLick
+ changeGalleri(e:string, name: string){
         this.setState({galActive: name })
             }
     
@@ -40,7 +47,7 @@ class Home extends React.Component {
                     key={items.name+items.id} 
                     className={this.state.galActive === items.name ? 'btnGreen active ' : 'btnGreen btnShow'} 
                     value={items.id} 
-                    onClick={() => this.changeDevices('s'+index, items.name)} 
+                    onClick={() => this.changeGalleri('s'+index, items.name)} 
                     >
                     {items.name}
                   </button>
