@@ -26,7 +26,8 @@
   /* border-right: none; */
 }
 
-.nav li a {
+.nav li a,
+.dividerBTN {
   display: block;
   width: 100px;
   color: white;
@@ -35,8 +36,10 @@
   text-decoration: none;
 }
 
-.nav li a:hover:not(.active) {
+.nav li a:hover:not(.active),
+.dividerBTN:hover {
   background-color: #333;
+  cursor: pointer;
 }
 
 .nav .active {

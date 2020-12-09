@@ -38,7 +38,7 @@ class Navigation extends React.Component<IProps, State> {
                       <NavLink exact to="/status" activeClassName="active" onClick={() => this.subNav('OFF')}>Status</NavLink>
                     </li>
                     <li key="Setup">
-                      <NavLink  to="/setup" activeClassName="active" onClick={() => this.subNav('ON')}>Setup</NavLink>
+                      <div  className="dividerBTN" onClick={() => this.subNav('ON')}>Setup</div>
                     </li>
                     <li key="test">
                       <NavLink exact to="/test" activeClassName="active" onClick={() => this.subNav('OFF')}>Test</NavLink>
