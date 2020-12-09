@@ -1,6 +1,6 @@
-Demo of Sofie Automation configuration webpages - version 2 (december 2020)  
+run yarn
 
-How to use:
-yarn init
-yarn add lite-server --dev
-yarn start
+yarn dev
+
+go to http://localhost:8080/
+
