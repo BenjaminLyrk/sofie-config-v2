@@ -35,9 +35,10 @@ class Home extends React.Component {
                 //galleries
                 const galleriColm = galleriItems.content.galleries.map((items: any, index: Number) => ( 
                   <>
+                 
                   <button 
                     key={items.name+items.id} 
-                    className={this.state.galActive === items.name ? 'btnGreen active' : 'btnGreen'} 
+                    className={this.state.galActive === items.name ? 'btnGreen active ' : 'btnGreen btnShow'} 
                     value={items.id} 
                     onClick={() => this.changeDevices('s'+index, items.name)} 
                     >
@@ -45,13 +46,13 @@ class Home extends React.Component {
                   </button>
                   <div className={this.state.galActive === items.name ? 'controlBTN active' : 'controlBTN'} >
                     <MakeButton
-                                        btnText   = {'BROWSE'}
+                                        btnText   = {items.name + '- BROWSE'}
                                         btnClass  = {'btnBrowse'}
                                         btnValue  = {'startBrowse'}
                                         />
                   
                      <MakeButton
-                     btnText   = {'ACTIVE'}
+                     btnText   = {items.name + '- ACTIVATE'}
                      btnClass  = {'btnStart'}
                      btnValue  = {'start'}
                      />

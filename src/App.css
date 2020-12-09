@@ -66,6 +66,7 @@ div.btn-group {
   height: 70%;
   min-width: 100px;
   overflow: auto;
+  position: relative;
 }
 .btn-group h2 {
   text-align: center;
@@ -77,7 +78,6 @@ div.btn-group {
 }
 .btn-group button {
   color: white;
-
   cursor: pointer;
   width: 80%;
   height: 40px;
@@ -135,17 +135,9 @@ div.btn-group {
 .btnStart {
   width: 300px;
   height: 40px;
-  margin: 20px;
+  display: inline;
 }
-.btnBrowse {
-  background-color: #1f2021;
-  color: white;
-  padding: 0px;
-}
-.btnStart {
-  background-color: #761912;
-  color: white;
-}
+
 .btnOrange {
   background-color: #af4900;
   color: white;
@@ -185,11 +177,24 @@ DIV.infoValue {
 }
 .controlBTN.active {
   display: block;
-  margin-bottom: 40px;
   text-align: center;
 }
 .controlBTN.active button {
-  width: 90px;
-  display: inline;
-  margin: 10px;
+}
+.btnHide {
+  /* display: none !important; */
+  visibility: hidden;
+}
+.btnShow {
+  /* display: block; */
+  visibility: visible;
+}
+.btnBrowse {
+  background-color: #1f2021;
+  color: white;
+  padding: 0px;
+}
+.btnStart {
+  background-color: #761912;
+  color: white;
 }
