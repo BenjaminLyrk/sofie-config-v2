@@ -18,7 +18,7 @@
             "settings": {
                 "mediaPreviewsUrl": "http://10.201.76.11:8000/",
                 "sofieUrl": "http://10.209.81.11",
-                "slackEvaluationUrls": "https://hooks.slack.com/services/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",
+                "slackEvaluationUrls": "",
                 "supportedMediaFormats": "1920x1080i5000tff,1920x1080p5000,1920x1080i2500tff,1920x1080p2500,1920x1080i2500",
                 "supportedAudioStreams": "",
                 "autoRewindLeavingSegment": true
