@@ -45,21 +45,21 @@ class Home extends React.Component<HomeProps, IState> {
                  
                   <button 
                     key={items.name+items.id} 
-                    className={this.state.galActive === items.name ? 'btnGreen active ' : 'btnGreen btnShow'} 
+                    className={this.state.galActive === items.name ? 'btnGreen active ' : 'btnGreen show'} 
                     value={items.id} 
                     onClick={() => this.changeGalleri('s'+index, items.name)} 
                     >
                     {items.name}
                   </button>
-                  <div className={this.state.galActive === items.name ? 'controlBTN active' : 'controlBTN'} >
+                  <div className={this.state.galActive === items.name ? 'show' : 'hide'} >
                     <MakeButton
-                                        btnText   = {items.name + '- BROWSE'}
+                                        btnText   = {items.name + ' BROWSE'}
                                         btnClass  = {'btnBrowse'}
                                         btnValue  = {'startBrowse'}
                                         />
                   
                      <MakeButton
-                     btnText   = {items.name + '- ACTIVATE'}
+                     btnText   = {items.name + ' ACTIVATE'}
                      btnClass  = {'btnStart'}
                      btnValue  = {'start'}
                      />

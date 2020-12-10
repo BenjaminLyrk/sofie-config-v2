@@ -3,7 +3,7 @@
     "galleries": [
       {
         "id": "4000",
-        "name": "AFV D",
+        "name": "AFV-D",
         "devices": [
           {
             "id": "4001",
@@ -80,7 +80,7 @@
       },
       {
         "id": "3000",
-        "name": "AFV C",
+        "name": "AFV-C",
         "devices": [
           {
             "id": "3001",
@@ -96,7 +96,7 @@
       },
       {
         "id": "10000",
-        "name": "AFV Q2",
+        "name": "AFV-Q2",
         "devices": [
           {
             "id": "10001",

@@ -131,11 +131,23 @@ div.btn-group {
   background-color: #353535;
   text-align: center;
 }
-.btnBrowse,
-.btnStart {
-  width: 300px;
+.btn-group button.btnBrowse,
+.btn-group button.btnStart {
+  width: 90px;
   height: 40px;
-  display: inline;
+  display: inline-block;
+  text-align: center;
+  word-break: break-word;
+  margin: 2px 0 0 23px;
+}
+.btnBrowse {
+  background-color: #1f2021;
+  color: white;
+  padding: 0px;
+}
+.btnStart {
+  background-color: #761912;
+  color: white;
 }
 
 .btnOrange {
@@ -146,8 +158,6 @@ div.btn-group {
 .btnOrangeDim {
   background-color: #573a25;
   color: white;
-}
-.settingsDiv {
 }
 .settingsDiv .col1,
 .settingsDiv .col2,
@@ -172,29 +182,9 @@ DIV.infoValue {
   width: 68%;
 }
 
-.controlBTN {
-  display: none;
+.hide {
+  display: none !important;
 }
-.controlBTN.active {
+.show {
   display: block;
-  text-align: center;
-}
-.controlBTN.active button {
-}
-.btnHide {
-  /* display: none !important; */
-  visibility: hidden;
-}
-.btnShow {
-  /* display: block; */
-  visibility: visible;
-}
-.btnBrowse {
-  background-color: #1f2021;
-  color: white;
-  padding: 0px;
-}
-.btnStart {
-  background-color: #761912;
-  color: white;
 }
