@@ -1,7 +1,7 @@
 import React from 'react'
 import {TestFx} from './Helper'
 import {getData} from './Helper'
-import settingsJson from '../data/galleriesTEST.json'
+import settingsJson from '../data/galleries.json'
 
 
 interface IProps {
@@ -37,20 +37,19 @@ class Test extends React.Component<IProps, State>{
    this.setState({deviceView: e})
    let f:number = parseInt( e.substring(1) );
    this.setState({galleriId: f })
-   this.setState({deviceId: 0 })
-   this.setState({galActive: name })
+    this.setState({galActive: name })
   
   }
   changeArea(e:string, name: string){
     this.setState({areaView: e})
     let f:number = parseInt( e.substring(1) );
+    this.setState({deviceId: f })
     this.setState({devActive: name })
    }
   
   changeinfo(e:string, name: string){
    this.setState({infoView: e})
    let f:number = parseInt( e.substring(1) );
-   console.log(f, ' :test ', name)
    this.setState({areaId: f })
    this.setState({areaActive: name })
    }
