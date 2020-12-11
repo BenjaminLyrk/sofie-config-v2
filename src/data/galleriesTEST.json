@@ -6,28 +6,794 @@
         "name": "AFV D",
         "devices": [
           {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "ip": "localhost",
+                    "version ": "25"
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "4002",
             "name": "graphic",
             "area": [
               {
-                "setup": {
-                  "param": [
-                    {
-                      "#DEVIDER#1": "SETTINGS",
-                      "ip": "192.168.1.1",
-                      "default folder": "/Triton/Sofie/atem "
-                    }
-                  ]
-                },
-                "setup2": {
-                  "param": [
-                    {
-                      "#DEVIDER#1": "SETTINGS",
-                      "ip": "192.168.1.1",
-                      "default folder": "/Triton/Sofie/atem "
-                    }
-                  ]
-                }
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": "AFV C",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "ip": "localhost",
+                    "version ": "25"
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": "AFV Q2",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "ip": "localhost",
+                    "version ": "26"
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "#DEVIDER#1": "SETTINGS",
+                    "": "",
+                    "": ""
+                  }
+                ]
               }
             ]
           }

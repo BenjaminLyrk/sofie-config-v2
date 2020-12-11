@@ -14,11 +14,14 @@ interface IProps {
 const initialState ={
   text: 'settings',
   deviceView: 'defaultView',
+  areaView: 'defaultView',
   infoView: 'defaultView',
   deviceId: 0,
   galleriId: 0,
+  areaId: 0,
   galActive: '',
-  devActive: ''
+  devActive: '',
+  areaActive: ''
 }
 
 //define the type of state (types mus start with capital)
@@ -38,57 +41,93 @@ class Test extends React.Component<IProps, State>{
    this.setState({galActive: name })
   
   }
+  changeArea(e:string, name: string){
+    this.setState({areaView: e})
+    let f:number = parseInt( e.substring(1) );
+    this.setState({devActive: name })
+   }
+  
   changeinfo(e:string, name: string){
    this.setState({infoView: e})
    let f:number = parseInt( e.substring(1) );
-   this.setState({deviceId: f })
-   this.setState({devActive: name })
-  }
+   console.log(f, ' :test ', name)
+   this.setState({areaId: f })
+   this.setState({areaActive: name })
+   }
  
 
  
    render(){  
             TestFx('value')  //importet function from Helper 
-            //const data = getData()       
-              //galleries
-               const galleriColm = settingsJson.content.galleries.map((items: any, index: Number) => ( 
-                 <button 
-                   key={items.name+items.id} 
-                   className={this.state.galActive === items.name ? 'btnGreen active' : 'btnGreen'} 
-                   value={items.id} 
-                   onClick={() => this.changeDevices('s'+index, items.name)} 
-                   >
-                   {items.name}
-                 </button>
-                 ))
- 
-               let deviceColm: any = ''
-   
-               if (this.state.deviceView === 'defaultView'){
-                 deviceColm = (<p>no settings</p>)
-               } else if (this.state.deviceView.length >= 2) {
-                 deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index) => (
-                                               <button 
-                                               key={t.name+t.id} 
-                                               className={this.state.devActive === t.name ? 'btnBlue active' : 'btnBlue'} 
-                                               value={t.id} 
-                                               onClick={() => this.changeinfo('i'+index, t.name)}>
-                                                 {t.name}
-                                               </button>
-                                            
-                     ));
+            const galleries = getData('galleries')
+             //galleries column
+             const galleriColm = settingsJson.content.galleries.map((items: any, index: Number) => ( 
+              <button 
+                key={items.name+items.id} 
+                className={this.state.galActive === items.name ? 'btnBlue active' : 'btnBlue'} 
+                value={items.id} 
+                onClick={() => this.changeDevices('s'+index, items.name)} 
+                >
+                {items.name}
+              </button>
+              ))
+            
+              
+            //deviceColumn
+            let deviceColm: any = ''
+
+            if (this.state.deviceView === 'defaultView'){
+              deviceColm = (<p>no settings</p>)
+            } else if (this.state.deviceView.length >= 2) {
+              deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index) => (
+                                            <button 
+                                            key={t.name+t.id} 
+                                            className={this.state.devActive === t.name ? 'btnGreen active' : 'btnGreen'} 
+                                            value={t.id} 
+                                            onClick={() => this.changeArea('i'+index, t.name)}>
+                                              {t.name}
+                                            </button>
+                                         
+                  ));
                } else {
                  deviceColm = (<p>no settings</p>)
                }
-               //areaCol
+
+
+
+               //area column
                let areaColm: any = ''
-               
+               let count: number = 0;
+               if (this.state.areaView === 'defaultView'){
+                areaColm = (<p>no folders</p>)
+              } else if (this.state.areaView.length >= 2) {
+                                      areaColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area.map((t, index) => (
+                                        <button 
+                                            key={t.name+index} 
+                                            className={this.state.areaActive === t.name ? 'btnCyan active' : 'btnCyan'} 
+                                            value={t.name} 
+                                            onClick={() => this.changeinfo('i'+index, t.name)}>
+                                              {t.name}
+                                            </button>
+                                           
+                                           
+                                    
+                      ))
+                      
+              } else {
+                areaColm = (<p>no data</p>)
+              } 
+
+
+
+
                //infoColm
                let infoColm: any = ''
                if (this.state.infoView === 'defaultView'){
                  infoColm = (<p>no settings</p>)
                } else if (this.state.infoView.length >= 2) {
-                 infoColm = Object.entries(settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[0].setup.param[0]).map(([key, value]) => {
+                 infoColm = Object.entries(settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[this.state.areaId].param[0]).map(([key, value]) => {
+                                                
                                                  if (key.includes('#DEVIDER#') ) {
                                                      return (
                                                      <div><h3>{value}</h3></div>
@@ -109,21 +148,27 @@ class Test extends React.Component<IProps, State>{
                }
            return (
              <div className="pageWrapper status">
-                   <div className="btn-group col1">  
+                   
+                   <div className="btn-group col1">
+                   <h2>galleries</h2>  
                        {galleriColm}
                    </div>
                    <div className="btn-group col2">  
+                   <h2>devices</h2> 
                        {deviceColm}
                    </div>
-                   <div className="btn-group col3">  
+                   <div className="btn-group col3"> 
+                   <h2>area</h2>  
                        {areaColm}
                    </div>
                    <div className="btn-group colInfo"> 
-                       
+                   <h2>settings</h2> 
                          {infoColm}
                        
                    </div>
-                  
+                   <div id="arrow1"></div>
+                   <div id="arrow2"></div>
+                   <div id="arrow3"></div>
              </div>    
            
            )

@@ -4,6 +4,8 @@ body {
   background-color: #353535;
   color: white;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .pageWrapper {
@@ -15,7 +17,7 @@ body {
 
 div.App {
   width: 1500px;
-  height: 730px;
+  height: 750px;
   overflow: hidden;
   border: 1px solid #666;
   position: relative;
@@ -63,10 +65,31 @@ div.btn-group {
   margin-left: 20px;
   float: left;
   background-color: #252525;
-  height: 70%;
+  height: 80%;
   min-width: 100px;
   overflow: auto;
   position: relative;
+}
+#arrow1,
+#arrow2,
+#arrow3 {
+  position: absolute;
+  width: 50px;
+  height: 300px;
+  z-index: 0;
+  background-image: url("./arrow.png");
+  background-repeat: no-repeat;
+  background-position: -25px 0%;
+  top: 25%;
+}
+#arrow1 {
+  left: 290px;
+}
+#arrow2 {
+  left: 620px;
+}
+#arrow3 {
+  left: 950px;
 }
 .btn-group h2 {
   text-align: center;
@@ -82,7 +105,7 @@ div.btn-group {
   width: 80%;
   height: 40px;
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
   margin-bottom: 1px;
   border: 1px solid #666;
 }
@@ -123,7 +146,8 @@ div.btn-group {
   border: 1px solid #999;
 }
 .btnCyan:hover,
-.btnCyanDim {
+.btnCyanDim,
+.btnCyan.active {
   background-color: #255753;
   border: 1px solid #999;
 }

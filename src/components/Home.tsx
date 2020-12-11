@@ -51,6 +51,7 @@ class Home extends React.Component<HomeProps, IState> {
                     >
                     {items.name}
                   </button>
+                  <div className="umd"></div>
                   <div className={this.state.galActive === items.name ? 'show' : 'hide'} >
                     <MakeButton
                                         btnText   = {items.name + ' BROWSE'}

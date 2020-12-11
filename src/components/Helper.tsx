@@ -1,4 +1,4 @@
-import settingsJson from '../data/galleriesTEST.json'
+import settingsJson from '../data/galleries.json'
 
 
 //Helper functions
@@ -10,10 +10,27 @@ export function TestFx (value: any) {
  
 //create object from Json request
 
-export function getData () {
-  
-        
-        const q = console.log('start of getData: ')
-     return(q) 
+let obj: any; 
+
+//output example
+// obj = {
+//   "data": [
+//     {
+//       "param": "4000",
+//       "value": "AFV-D"
+//     }
+//   ]
+// }
+export function getData (type: string) {
+
+  switch (type){
+    case 'galleries':
+      obj = settingsJson.content.galleries.map((items: any, index: Number) => ( 
+              {param: items.id, value: items.name}
+            ))
+          break;
+  }
+console.log(obj)
+     return(obj) 
 
 }
