@@ -21,7 +21,8 @@ const initialState ={
   areaId: 0,
   galActive: '',
   devActive: '',
-  areaActive: ''
+  areaActive: '',
+  overMe: ''
 }
 
 //define the type of state (types mus start with capital)
@@ -54,6 +55,17 @@ class Test extends React.Component<IProps, State>{
    this.setState({areaActive: name })
    }
  
+   handleBoxToggle(e:string){
+     if(this.state.overMe  !== e)
+     { 
+      this.setState({overMe: e })
+      } else {
+        this.setState({overMe: '' })
+      }
+   }
+
+
+   
 
  
    render(){  
@@ -96,7 +108,6 @@ class Test extends React.Component<IProps, State>{
 
                //area column
                let areaColm: any = ''
-               let count: number = 0;
                if (this.state.areaView === 'defaultView'){
                 areaColm = (<p>no folders</p>)
               } else if (this.state.areaView.length >= 2) {
@@ -132,9 +143,17 @@ class Test extends React.Component<IProps, State>{
                                                        <div key={t._id}>
                                                            <div className={t.divider.length > 0 ? 'no' : 'hideValue '} >{t.divider}</div>
                                                            <div className="hideValue">{t._id}</div>
-                                                           <div className="infoKey">{t.name}</div>
+                                                           <div className="infoKey"
+                                                              onMouseOver={() => this.handleBoxToggle(t.name)}
+                                                              onMouseOut={() => this.handleBoxToggle(t.name)}
+                                                           >{t.name}</div>
                                                            <div className="infoValue">{t.value}</div>
-                                                           <div className="hideValue">{t.blueprint}</div>
+                                                           <div className={this.state.overMe === t.name ? 'help show' : 'help hide'} 
+                                                                >
+                                                                {t.blueprint}
+                                                            </div>   
+
+
                                                        </div>
                                                        )
                                                    

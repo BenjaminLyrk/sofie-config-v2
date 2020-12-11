@@ -214,3 +214,14 @@ DIV.infoValue {
 .show {
   display: block;
 }
+
+.help {
+  color: black;
+  width: 250px;
+  height: 50px;
+  background-color: darkkhaki;
+  border: 1px solidblack;
+  position: relative;
+  top: -10px;
+  left: 120px;
+}
