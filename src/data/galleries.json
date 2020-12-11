@@ -13,9 +13,11 @@
                 "name": "network",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "ip": "localhost",
-                    "version ": "25"
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "ip",
+                    "value": "localhost",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -23,9 +25,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -33,15 +37,17 @@
           },
           {
             "id": "4002",
-            "name": "graphic",
+            "name": "vision mixer",
             "area": [
               {
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -49,9 +55,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -65,9 +73,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -75,9 +85,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -91,9 +103,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -101,9 +115,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -117,9 +133,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -127,9 +145,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -143,9 +163,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -153,9 +175,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -169,9 +193,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -179,9 +205,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -195,9 +223,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -205,9 +235,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -221,9 +253,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -231,9 +265,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -247,9 +283,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -257,9 +295,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -279,9 +319,11 @@
                 "name": "network",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "ip": "localhost",
-                    "version ": "25"
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -289,9 +331,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -299,15 +343,17 @@
           },
           {
             "id": "4002",
-            "name": "graphic",
+            "name": "vision mixer",
             "area": [
               {
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -315,9 +361,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -331,9 +379,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -341,9 +391,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -357,9 +409,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -367,9 +421,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -383,9 +439,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -393,9 +451,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -409,9 +469,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -419,9 +481,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -435,9 +499,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -445,9 +511,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -461,9 +529,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -471,9 +541,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -487,9 +559,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -497,9 +571,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -513,9 +589,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -523,9 +601,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -545,9 +625,11 @@
                 "name": "network",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "ip": "localhost",
-                    "version ": "26"
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -555,9 +637,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -565,15 +649,17 @@
           },
           {
             "id": "4002",
-            "name": "graphic",
+            "name": "vision mixer",
             "area": [
               {
-                "name": "folder 1",
+                "name": "config",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "type",
+                    "value": "Atem",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -581,9 +667,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -597,9 +685,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -607,9 +697,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -623,9 +715,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -633,9 +727,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -649,9 +745,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -659,9 +757,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -675,9 +775,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -685,9 +787,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -701,9 +805,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -711,9 +817,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -727,9 +835,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -737,9 +847,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -753,9 +865,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -763,9 +877,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }
@@ -779,9 +895,11 @@
                 "name": "folder 1",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -789,9 +907,11 @@
                 "name": "folder 2",
                 "param": [
                   {
-                    "#DEVIDER#1": "SETTINGS",
-                    "": "",
-                    "": ""
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
                   }
                 ]
               }

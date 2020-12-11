@@ -37,20 +37,19 @@ class Test extends React.Component<IProps, State>{
    this.setState({deviceView: e})
    let f:number = parseInt( e.substring(1) );
    this.setState({galleriId: f })
-   this.setState({deviceId: 0 })
-   this.setState({galActive: name })
+    this.setState({galActive: name })
   
   }
   changeArea(e:string, name: string){
     this.setState({areaView: e})
     let f:number = parseInt( e.substring(1) );
+    this.setState({deviceId: f })
     this.setState({devActive: name })
    }
   
   changeinfo(e:string, name: string){
    this.setState({infoView: e})
    let f:number = parseInt( e.substring(1) );
-   console.log(f, ' :test ', name)
    this.setState({areaId: f })
    this.setState({areaActive: name })
    }
@@ -79,7 +78,7 @@ class Test extends React.Component<IProps, State>{
             if (this.state.deviceView === 'defaultView'){
               deviceColm = (<p>no settings</p>)
             } else if (this.state.deviceView.length >= 2) {
-              deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index) => (
+              deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index: number) => (
                                             <button 
                                             key={t.name+t.id} 
                                             className={this.state.devActive === t.name ? 'btnGreen active' : 'btnGreen'} 
@@ -101,7 +100,7 @@ class Test extends React.Component<IProps, State>{
                if (this.state.areaView === 'defaultView'){
                 areaColm = (<p>no folders</p>)
               } else if (this.state.areaView.length >= 2) {
-                                      areaColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area.map((t, index) => (
+                                      areaColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area.map((t:any, index: number) => (
                                         <button 
                                             key={t.name+index} 
                                             className={this.state.areaActive === t.name ? 'btnCyan active' : 'btnCyan'} 
@@ -126,21 +125,19 @@ class Test extends React.Component<IProps, State>{
                if (this.state.infoView === 'defaultView'){
                  infoColm = (<p>no settings</p>)
                } else if (this.state.infoView.length >= 2) {
-                 infoColm = Object.entries(settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[this.state.areaId].param[0]).map(([key, value]) => {
+                 infoColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[this.state.areaId].param.map((t: any, index:number) => {
                                                 
-                                                 if (key.includes('#DEVIDER#') ) {
-                                                     return (
-                                                     <div><h3>{value}</h3></div>
-                                                     )
-                                                   } else {
-                                                     return (
-                                                       
-                                                       <div key={key}>
-                                                           <div className="infoKey">{key}</div>
-                                                           <div className="infoValue">{value}</div>
+                                                      return (
+                                                      
+                                                       <div key={t._id}>
+                                                           <div className={t.divider.length > 0 ? 'no' : 'hideValue '} >{t.divider}</div>
+                                                           <div className="hideValue">{t._id}</div>
+                                                           <div className="infoKey">{t.name}</div>
+                                                           <div className="infoValue">{t.value}</div>
+                                                           <div className="hideValue">{t.blueprint}</div>
                                                        </div>
                                                        )
-                                                   }  
+                                                   
                                              })
                                           
              } else {
