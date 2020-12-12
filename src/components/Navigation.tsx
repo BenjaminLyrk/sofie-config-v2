@@ -41,6 +41,7 @@ class Navigation extends React.Component<IProps, State> {
                       <div  className="dividerBTN" onClick={() => this.subNav('ON')}>Setup</div>
                     </li>
                 </ul>
+                <button id="logOff" onClick={() => window.location.reload(false)}>LOG OFF</button>
               </div>
               </div>
             )

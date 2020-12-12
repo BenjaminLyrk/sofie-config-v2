@@ -225,3 +225,10 @@ DIV.infoValue {
   top: -10px;
   left: 120px;
 }
+div.login select {
+  width: 400px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
