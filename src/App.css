@@ -232,3 +232,10 @@ div.login select {
   text-align: center;
   font-weight: bold;
 }
+#rd {
+  display: block;
+  width: 1500px;
+  height: 700px;
+  background-color: red;
+  background-image: url("assets/gui1.png");
+}
