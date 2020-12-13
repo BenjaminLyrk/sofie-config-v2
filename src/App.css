@@ -157,21 +157,24 @@ div.btn-group {
   background-color: #353535;
   text-align: center;
 }
-.btn-group button.btnBrowse,
-.btn-group button.btnStart {
-  width: 90px;
+.btn-group a.btnBrowse,
+.btn-group a.btnStart {
+  width: 88px;
   height: 40px;
   display: inline-block;
   text-align: center;
   word-break: break-word;
   margin: 2px 0 0 23px;
+  border: 1px solid white;
+  text-decoration: none;
+  line-height: 20px;
 }
-.btnBrowse {
+a.btnBrowse {
   background-color: #1f2021;
   color: white;
   padding: 0px;
 }
-.btnStart {
+a.btnStart {
   background-color: #761912;
   color: white;
 }
@@ -238,4 +241,29 @@ div.login select {
   height: 700px;
   background-color: red;
   background-image: url("assets/gui1.png");
+}
+
+.topmenu {
+  text-align: left;
+}
+
+.topmenu a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  text-decoration: none;
+  line-height: 40px;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin: 0 20px 20px 20px;
+}
+.topmenu select {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin-left: 20px;
 }

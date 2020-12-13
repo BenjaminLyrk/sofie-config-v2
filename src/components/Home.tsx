@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import MakeButton from './MakeButton';
 import galleriItems from '../data/galleries.json';
 
@@ -13,7 +14,8 @@ interface IState {
   deviceId: number,
   galleriId: number,
   galActive: string,
-  devActive: string
+  devActive: string,
+  redirect: boolean
 }
 interface HomeProps {
   
@@ -29,14 +31,19 @@ class Home extends React.Component<HomeProps, IState> {
       deviceId: 0,
       galleriId: 0,
       galActive: '',
-      devActive: ''
+      devActive: '',
+      redirect: false
     }
+    //always have this when using mouseclick/over functions
+    this.changeGalleri  = this.changeGalleri.bind(this)
   }
   //change state.view from mouseCLick
  changeGalleri(e:string, name: string){
-        this.setState({galActive: name })
-            }
-    
+  this.setState({galActive: name })
+    }
+
+
+
     render(){  
 
                 //galleries
@@ -53,17 +60,9 @@ class Home extends React.Component<HomeProps, IState> {
                   </button>
                   <div className="umd"></div>
                   <div className={this.state.galActive === items.name ? 'show' : 'hide'} >
-                    <MakeButton
-                                        btnText   = {items.name + ' BROWSE'}
-                                        btnClass  = {'btnBrowse'}
-                                        btnValue  = {'startBrowse'}
-                                        />
-                  
-                     <MakeButton
-                     btnText   = {items.name + ' ACTIVATE'}
-                     btnClass  = {'btnStart'}
-                     btnValue  = {'start'}
-                     />
+                      <NavLink exact to="/rundown" className={'btnBrowse'}> {items.name + ' BROWSE'}</NavLink>
+                      <NavLink exact to="/rundown" className={'btnStart'}> {items.name + ' ACTIVATE'}</NavLink>
+             
                     </div>
                     </>
                   ))
