@@ -1,0 +1,924 @@
+{
+  "content": {
+    "studios": [
+      {
+        "id": "4000",
+        "name": "STUDIO 3",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "ip",
+                    "value": "localhost",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "vision mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": "STUDIO 4",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "vision mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": "STUDIO 12",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "sofie",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "vision mixer",
+            "area": [
+              {
+                "name": "config",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "type",
+                    "value": "Atem",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "audio mixer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "mediaplayer",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "robotic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "light",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4009",
+            "name": "gpo in/out",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4010",
+            "name": "nrcs",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

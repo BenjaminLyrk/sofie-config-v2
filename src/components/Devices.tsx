@@ -28,7 +28,7 @@ const initialState ={
 //define the type of state (types mus start with capital)
 type State = Readonly<typeof initialState>
 
-class Test extends React.Component<IProps, State>{
+class Devices extends React.Component<IProps, State>{
   readonly state: State = initialState;
 
 
@@ -190,5 +190,5 @@ class Test extends React.Component<IProps, State>{
                 
          }
  }
-export default Test;
+export default Devices;
 // <TestGetJson /> 

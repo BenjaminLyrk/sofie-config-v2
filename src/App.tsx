@@ -4,7 +4,12 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Status from './components/Status';
+import Galleries from './components/Galleries';
+import Studios from './components/Studios';
+import Gui from './components/Gui';
 import Devices from './components/Devices';
+import Parts from './components/Parts';
+import Backup from './components/Backup';
 import Rundown from './components/Rundown';
 import Test from './components/Test';
 import Navigation from './components/Navigation';
@@ -35,7 +40,12 @@ class App extends  React.Component<IProps, IState> {
                     <Home />
                   )} />
                   <Route exact path="/status" component={Status} />
+                  <Route exact path="/setup/Galleries" component={Galleries} />
+                  <Route exact path="/setup/Studios" component={Studios} />
+                  <Route exact path="/setup/Gui" component={Gui} />
                   <Route exact path="/setup/Devices" component={Devices} />
+                  <Route exact path="/setup/Parts" component={Parts} />
+                  <Route exact path="/setup/Backup" component={Backup} />
                   <Route exact path="/rundown" component={Rundown} />
                   <Route exact path="/test" component={Test} />
                   <Route component={Lost} />

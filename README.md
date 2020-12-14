@@ -1,3 +1,5 @@
+This is a sandbox for working with a prototype of Sofieconfig pages.
+
 ## `yarn`
 
 ### `yarn start`

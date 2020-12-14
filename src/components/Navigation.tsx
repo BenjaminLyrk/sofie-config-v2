@@ -22,9 +22,23 @@ class Navigation extends React.Component<IProps, State> {
               <div>
               <div id="myNavRow2" className={this.state.subNav === 'ON' ? 'nav subNavON' : 'nav subNavOff'} >
               <ul>
-                
+                  <li key="Galleries">
+                    <NavLink exact to="/setup/galleries" activeClassName="active">Galleries</NavLink>
+                  </li>
+                  <li key="Studios">
+                    <NavLink exact to="/setup/studios" activeClassName="active">Studios</NavLink>
+                  </li>
+                  <li key="Gui">
+                    <NavLink exact to="/setup/gui" activeClassName="active">Gui</NavLink>
+                  </li>
                   <li key="Devices">
                     <NavLink exact to="/setup/devices" activeClassName="active">Devices</NavLink>
+                  </li>
+                  <li key="Parts">
+                    <NavLink exact to="/setup/parts" activeClassName="active">Parts</NavLink>
+                  </li>
+                  <li key="Backup">
+                    <NavLink exact to="/setup/backup" activeClassName="active">Backup</NavLink>
                   </li>
 
               </ul>
