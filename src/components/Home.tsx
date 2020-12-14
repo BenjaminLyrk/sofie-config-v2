@@ -14,7 +14,8 @@ interface IState {
   deviceId: number,
   galleriId: number,
   galActive: string,
-  devActive: string,
+  stuActive: string,
+  guiActive: string,
   redirect: boolean
 }
 interface HomeProps {
@@ -31,7 +32,8 @@ class Home extends React.Component<HomeProps, IState> {
       deviceId: 0,
       galleriId: 0,
       galActive: '',
-      devActive: '',
+      stuActive: '',
+      guiActive: '',
       redirect: false
     }
     //always have this when using mouseclick/over functions
@@ -42,7 +44,12 @@ class Home extends React.Component<HomeProps, IState> {
   this.setState({galActive: name })
     }
 
-
+    changeStudio(e:string, name: string){
+      this.setState({stuActive: name })
+        }
+  changeGui(e:string, name: string){
+    this.setState({guiActive: name })
+      }
 
     render(){  
 
@@ -61,7 +68,7 @@ class Home extends React.Component<HomeProps, IState> {
                   <div className="umd"></div>
                   <div className={this.state.galActive === items.name ? 'show' : 'hide'} >
                       <NavLink exact to="/rundown" className={'btnBrowse'}> {items.name + ' BROWSE'}</NavLink>
-                      <NavLink exact to="/rundown" className={'btnStart'}> {items.name + ' ACTIVATE'}</NavLink>
+                      <NavLink exact to="/rundown" className={'btnStart'}> {items.name + ' CONTROL'}</NavLink>
              
                     </div>
                     </>
@@ -74,12 +81,17 @@ class Home extends React.Component<HomeProps, IState> {
                                   </div>
                                   <div className="btn-group col2">
                                   <h2>Studios</h2> 
-                                      {studios.map(i => (
-                                        <MakeButton
-                                        btnText   = {i}
-                                        btnClass  = {'btnBlue'}
-                                        btnValue  = {i}
-                                        />
+                                      {studios.map((i, index) => (
+                                       
+                                       <button 
+                                       key={i+index} 
+                                       className={this.state.stuActive === i ? 'btnBlue active ' : 'btnBlue show'} 
+                                       value={i} 
+                                       onClick={() => this.changeStudio('s'+index, i)} 
+                                       >
+                                       {i}
+                                     </button>
+                                     
                                       ))}
                                   </div>
                                   <div className="btn-group col3">
@@ -94,13 +106,16 @@ class Home extends React.Component<HomeProps, IState> {
                                   </div>
                                   <div className="btn-group col4">
                                     <h2>GUI</h2> 
-                                      {gui.map(i => (
-                                                <MakeButton
-                                                btnText   = {i}
-                                                btnClass  = {'btnCyan'}
-                                                btnValue  = {i}
-                                                />
-                                      ))}
+                                    {gui.map((i, index) => (
+                                       <button 
+                                       key={i+index} 
+                                       className={this.state.guiActive === i ? 'btnCyan active ' : 'btnCyan show'} 
+                                       value={i} 
+                                       onClick={() => this.changeGui('s'+index, i)} 
+                                       >
+                                       {i}
+                                     </button>
+                                     ))}
                                   </div>
                                   <div className="below">
 
