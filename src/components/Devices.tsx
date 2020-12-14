@@ -1,6 +1,6 @@
 import React from 'react'
 import {TestFx} from './Helper'
-import {getData} from './Helper'
+import {createInfoItems} from './Helper'
 import settingsJson from '../data/galleries.json'
 
 
@@ -69,8 +69,7 @@ class Devices extends React.Component<IProps, State>{
 
  
    render(){  
-            TestFx('value')  //importet function from Helper 
-             //galleries column
+               //galleries column
              const galleriColm = settingsJson.content.galleries.map((items: any, index: Number) => ( 
               <button 
                 key={items.name+items.id} 
@@ -137,22 +136,20 @@ class Devices extends React.Component<IProps, State>{
                } else if (this.state.infoView.length >= 2) {
                  infoColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[this.state.areaId].param.map((t: any, index:number) => {
                                                 
+                                                      let valueItem = createInfoItems(t.value)
                                                       return (
-                                                      
-                                                       <div key={t._id}>
+                                                       <div key={t._id} className="infoItem">
                                                            <div className={t.divider.length > 0 ? 'no' : 'hideValue '} >{t.divider}</div>
                                                            <div className="hideValue">{t._id}</div>
                                                            <div className="infoKey"
                                                               onMouseOver={() => this.handleBoxToggle(t.name)}
                                                               onMouseOut={() => this.handleBoxToggle(t.name)}
                                                            >{t.name}</div>
-                                                           <div className="infoValue">{t.value}</div>
-                                                           <div className={this.state.overMe === t.name ? 'help show' : 'help hide'} 
-                                                                >
+                                                           <div className="infoValue">
+                                                             {valueItem}</div>
+                                                             <div className={this.state.overMe === t.name ? 'help show' : 'help hide'}>
                                                                 {t.blueprint}
                                                             </div>   
-
-
                                                        </div>
                                                        )
                                                    

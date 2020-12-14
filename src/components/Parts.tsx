@@ -138,18 +138,23 @@ class Parts extends React.Component<IProps, State>{
                                                         
                                                           return (
                                                           
-                                                          <div key={t._id}>
+                                                          <div key={t._id} className="infoItem">
                                                               <div className={t.divider.length > 0 ? 'no' : 'hideValue '} >{t.divider}</div>
                                                               <div className="hideValue">{t._id}</div>
                                                               <div className="infoKey"
                                                                   onMouseOver={() => this.handleBoxToggle(t.name)}
                                                                   onMouseOut={() => this.handleBoxToggle(t.value)}
                                                               >{t.name}</div>
-                                                              <div className="infoValue">{t.value}</div>
-                                                              
-                                                              <div className="note"> 
-                                                                    {t.note}
-                                                                </div>   
+                                                              <div className="infoValue">
+                                                                  {t.value}
+                                                              </div>
+                                                                  <div className={this.state.overMe === t.name ? 'help show' : 'help hide'}>
+                                                                     {t.note}
+                                                                  </div>
+                                                                  <div className="note">
+                                                                     {t.note}
+                                                                  </div> 
+                                                                
 
 
                                                           </div>

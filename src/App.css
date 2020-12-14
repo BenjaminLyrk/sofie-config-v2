@@ -235,6 +235,7 @@ DIV.infoValue {
   border: 1px solid grey;
   height: 40px;
   overflow: hidden;
+  position: relative;
 }
 DIV.infoKey {
   width: 33%;
@@ -250,16 +251,24 @@ DIV.infoValue {
 .show {
   display: block;
 }
-
+div.infoItem {
+  position: relative;
+  cursor: pointer;
+}
+div.infoItem select {
+  height: 40px;
+  width: 100%;
+}
 .help {
   color: black;
   width: 250px;
-  height: 50px;
+  height: 100px;
   background-color: darkkhaki;
-  border: 1px solidblack;
-  position: relative;
-  top: -10px;
+  border: 1px solid white;
+  position: absolute;
+  top: 10px;
   left: 120px;
+  z-index: 100;
 }
 div.login select {
   width: 400px;

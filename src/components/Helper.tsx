@@ -34,3 +34,23 @@ console.log(obj)
      return(obj) 
 
 }
+
+
+export function createInfoItems (param: string) {
+        let result:any = []
+        let opt:any = []
+        let i:number = 0
+        //create multichoice, #MC#first option;second option;third option....
+        if(param.includes("#MC#", 0) ){
+         let t = param.substring(4).split(';')
+          
+          for (i = 0; i < t.length; i++) {
+            opt.push(<option>{t[i]}</option>)
+          }
+          result.push(<select >{opt}</select>);
+        } else {
+          result.push(param)
+        }
+    return result  
+ 
+}
