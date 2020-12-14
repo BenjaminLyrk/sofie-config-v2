@@ -43,6 +43,12 @@ class Gui extends React.Component<IProps, State>{
                <h2>gui</h2>  
                    {gui}
                </div>
+               <div className="btn-group col1">
+               <h2>area</h2>
+                   <button className="btnGreen">settings</button>   
+                   <button className="btnGreen">keyboard shortcuts</button>
+                   <button className="btnGreen">shelve</button>
+               </div>
              
          </div>    
        

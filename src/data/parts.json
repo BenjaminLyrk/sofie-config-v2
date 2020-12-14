@@ -1,0 +1,831 @@
+{
+  "content": {
+    "presets": [
+      {
+        "id": "4000",
+        "name": "Preset 1",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "Camera",
+            "area": [
+              {
+                "name": "camera 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "11",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "camera 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 2",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "12",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "camera 3",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 3",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "13",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "camera 4",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 4",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "14",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "External (RM)",
+            "area": [
+              {
+                "name": "EXTERNAL 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "LIVE 1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "Live 1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "EXTERNAL 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "LIVE 2",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "2",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "Live 2",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "DP01",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "EVS 1, EV1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "23",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "evs 1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "Clips",
+            "area": [
+              {
+                "name": "Server A/B",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "SERVER, ATTACK",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "47",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "server",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "no",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "no",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "Server C",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "SERVER C",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "28",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "server c",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "no",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "no",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "Splits",
+            "area": [
+              {
+                "name": "Sommerfugl",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "SOMMERFUGL",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx resource",
+                    "value": "atem SS01",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sisyfos fader",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "keep audio in  studio ?",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "Graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "sdf",
+                    "value": "sd",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "Vignette",
+            "area": [
+              {
+                "name": "settings",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "type",
+                    "value": "CasparCG",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "ip",
+                    "value": "localhost",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx inp fill",
+                    "value": "29",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx inp key",
+                    "value": "30",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "Items",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs cue",
+                    "value": "breaker 1",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "clip name",
+                    "value": "breaker1.mov",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "misc",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": "Preset 2",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "Camera",
+            "area": [
+              {
+                "name": "network",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "External",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4003",
+            "name": "Clips",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4004",
+            "name": "Splits",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4005",
+            "name": "Graphic",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4006",
+            "name": "Vignette",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4007",
+            "name": "misc",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4008",
+            "name": "router",
+            "area": [
+              {
+                "name": "folder 1",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

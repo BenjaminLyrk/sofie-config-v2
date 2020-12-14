@@ -63,7 +63,8 @@ div.App {
 }
 
 /*buttons*/
-div.btn-group {
+div.btn-group,
+div.colStatus {
   margin-left: 20px;
   float: left;
   background-color: #252525;
@@ -71,6 +72,9 @@ div.btn-group {
   min-width: 100px;
   overflow: auto;
   position: relative;
+}
+div.colStatus {
+  width: 1100px;
 }
 #arrow1,
 #arrow2,
@@ -147,6 +151,10 @@ div.btn-group {
   background-color: #00a99c;
   border: 1px solid #999;
 }
+.btnGrey {
+  background-color: #333;
+  border: 1px solid #999;
+}
 .btnCyan:hover,
 .btnCyanDim,
 .btnCyan.active {
@@ -196,19 +204,44 @@ a.btnStart {
   height: 20px;
   border: 1px solid white;
 }
-
+div.statusItem {
+  width: 230px;
+  height: 140px;
+  border: 1px solid white;
+  margin: 20px;
+  float: left;
+  overflow: hidden;
+}
+.statusHeader {
+  font-weight: normal;
+  text-transform: capitalize;
+  background-color: black;
+}
+.statusGreen {
+  background-color: #005919;
+}
+.statusStatus {
+  padding: 5px;
+  text-align: center;
+}
+.last {
+  font-size: small;
+}
 /*info column*/
 DIV.infoKey,
 DIV.infoValue {
   display: inline-block;
   padding: 4px;
   border: 1px solid grey;
+  height: 40px;
+  overflow: hidden;
 }
 DIV.infoKey {
-  width: 25%;
+  width: 33%;
 }
 DIV.infoValue {
-  width: 68%;
+  width: 60%;
+  overflow-x: auto;
 }
 
 .hide {
@@ -265,4 +298,10 @@ div.login select {
   color: white;
   background-color: black;
   margin-left: 20px;
+}
+
+.addItem {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
 }

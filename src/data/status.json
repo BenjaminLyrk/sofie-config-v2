@@ -32,31 +32,17 @@
                     "name": "Slack Webhook URLs",
                     "value": "localhost",
                     "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Playout Gateway",
-                    "value": "sofsrv02-odPlayoutCoreParent",
-                    "blueprint": ""
                   }
                 ]
               },
               {
-                "name": "misc.",
+                "name": "folder 2",
                 "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "Maximum Part Duration",
-                    "value": "10000",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Default Part Duration",
-                    "value": "4000",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
@@ -65,274 +51,28 @@
           },
           {
             "id": "4002",
-            "name": "vision mixer 01",
+            "name": "vision mixer",
             "area": [
               {
-                "name": "settings",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Vmx type",
-                    "value": "Atem",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "ip",
-                    "value": "Localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Default source",
-                    "value": "2001",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Continuity soure",
-                    "value": "2002",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "DSK",
-                "param": [
-                  {
-                    "divider": "DSK 1 - VIZ OVERLAY",
-                    "_id": "",
-                    "name": "DSK 1 fill INP",
-                    "value": "29",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK1 KEY INP",
-                    "value": "31",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK1 key clip",
-                    "value": "50",
-                    "blueprint": "Viz keyer clip"
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK1 key gain",
-                    "value": "12.5",
-                    "blueprint": "Viz keyer gain"
-                  },
-                  {
-                    "divider": "DSK 2 - JINGLES",
-                    "_id": "",
-                    "name": "DSK 2 fill INP",
-                    "value": "21",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 2  KEY INP",
-                    "value": "34",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 2 key clip",
-                    "value": "50",
-                    "blueprint": "Viz keyer clip"
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 2 key gain",
-                    "value": "12.5",
-                    "blueprint": "Viz keyer gain"
-                  },
-                  {
-                    "divider": "DSK 3 - not in use",
-                    "_id": "",
-                    "name": "DSK 3 fill INP",
-                    "value": "21",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 3  KEY INP",
-                    "value": "34",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 3 key clip",
-                    "value": "50",
-                    "blueprint": "Viz keyer clip"
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "DSK 3 key gain",
-                    "value": "12.5",
-                    "blueprint": "Viz keyer gain"
-                  }
-                ]
-              },
-              {
-                "name": "AUX",
-                "param": [
-                  {
-                    "divider": "Default inputs",
-                    "_id": "",
-                    "name": "AUX 1",
-                    "value": "29",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 2",
-                    "value": "31",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 3",
-                    "value": "50",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 4",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 5",
-                    "value": "21",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 6",
-                    "value": "34",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 7",
-                    "value": "50",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 8",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 9",
-                    "value": "21",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 10",
-                    "value": "34",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 11",
-                    "value": "50",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "AUX 12",
-                    "value": "12",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "Supersource",
-                "param": [
-                  {
-                    "divider": "Supersource 1",
-                    "_id": "",
-                    "name": "SS1 fill INP",
-                    "value": "30",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "SS1 key inp",
-                    "value": "32",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Full frame gfx bg",
-                    "value": "36",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "VMX mediaplayer",
+                "name": "folder 1",
                 "param": [
                   {
                     "divider": "SETTINGS",
                     "_id": "",
-                    "name": "MP 1 default viceoclip source",
-                    "value": "1",
-                    "blueprint": "ATEM MP1 baseline clip number"
-                  },
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "folder 2",
+                "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "MP 1 loop ?",
-                    "value": "yes",
-                    "blueprint": "ATEM MP1 baseline clip loop"
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "MP 1 play ?",
-                    "value": "yes",
-                    "blueprint": "ATEM MP1 baseline clip playing"
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Continuity soure",
-                    "value": "2002",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
@@ -341,77 +81,28 @@
           },
           {
             "id": "4003",
-            "name": "audio mixer 01",
+            "name": "audio mixer",
             "area": [
               {
-                "name": "settings",
+                "name": "folder 1",
                 "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "gateway",
-                    "value": "Sisyfos",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "bed fade in (frames)",
-                    "value": "25",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "bed volume",
-                    "value": "80",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "bed fade out (frames)",
-                    "value": "25",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
               },
               {
-                "name": "audio faders",
+                "name": "folder 2",
                 "param": [
                   {
-                    "divider": "studio",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "Host 1",
-                    "value": "fader 1",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Host 2",
-                    "value": "fader 2",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Guest 1",
-                    "value": "fader 3",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Guest 4",
-                    "value": "fader 4",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
@@ -420,32 +111,11 @@
           },
           {
             "id": "4004",
-            "name": "mediaplayer 01",
+            "name": "mediaplayer",
             "area": [
               {
-                "name": "Player 1",
+                "name": "settings",
                 "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "type",
-                    "value": "CasparCg",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Media Flow id ??",
-                    "value": "omneon_to_casparcg01",
-                    "blueprint": ""
-                  },
                   {
                     "divider": "",
                     "_id": "",
@@ -459,41 +129,6 @@
                     "name": "Supported audio formats",
                     "value": "",
                     "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "File extensions",
-                    "value": ".mxf",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "media path",
-                    "value": "localhost/media",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "jingle folder",
-                    "value": "/jingles",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "clips folder",
-                    "value": "/clips",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "preroll (frames)",
-                    "value": "280",
-                    "blueprint": ""
                   }
                 ]
               }
@@ -501,91 +136,28 @@
           },
           {
             "id": "4005",
-            "name": "graphic 01",
+            "name": "graphic",
             "area": [
               {
-                "name": "ovl",
+                "name": "folder 1",
                 "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "type",
-                    "value": "viz",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "MSE",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Pilot Preroll Duration?",
-                    "value": "2000",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Pilot Keepalive Duration?",
-                    "value": "700",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Pilot Out Transition Duration?",
-                    "value": "280",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Pilot media Player Cut Point?",
-                    "value": "1500",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
               },
               {
-                "name": "full",
+                "name": "folder 2",
                 "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "type",
-                    "value": "viz",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "MSE",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Prevent Overlay with Full",
-                    "value": "yes",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
@@ -594,7 +166,7 @@
           },
           {
             "id": "4006",
-            "name": "robotic 01",
+            "name": "robotic",
             "area": [
               {
                 "name": "folder 1",
@@ -624,7 +196,7 @@
           },
           {
             "id": "4007",
-            "name": "light 02",
+            "name": "light",
             "area": [
               {
                 "name": "folder 1",
@@ -654,7 +226,7 @@
           },
           {
             "id": "4008",
-            "name": "router 01",
+            "name": "router",
             "area": [
               {
                 "name": "folder 1",
@@ -684,7 +256,7 @@
           },
           {
             "id": "4009",
-            "name": "gpo in/out 01",
+            "name": "gpo in/out",
             "area": [
               {
                 "name": "folder 1",
@@ -714,37 +286,16 @@
           },
           {
             "id": "4010",
-            "name": "nrcs 01",
+            "name": "nrcs",
             "area": [
               {
-                "name": "NETWORK",
+                "name": "folder 1",
                 "param": [
                   {
-                    "divider": "",
+                    "divider": "SETTINGS",
                     "_id": "",
-                    "name": "gateway",
-                    "value": "Inews",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "main ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "backup ip",
-                    "value": "localhost",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "gateway",
-                    "value": "server1",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
