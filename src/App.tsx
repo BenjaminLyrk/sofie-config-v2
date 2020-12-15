@@ -4,13 +4,17 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Status from './components/Status';
+import MediaManager from './components/MediaManager';
 import Galleries from './components/Galleries';
 import Studios from './components/Studios';
 import Gui from './components/Gui';
 import Devices from './components/Devices';
 import Parts from './components/Parts';
+import Pieces from './components/Pieces';
 import Backup from './components/Backup';
 import Rundown from './components/Rundown';
+import Shows from './components/Shows';
+import Styles from './components/Styles';
 import Test from './components/Test';
 import Navigation from './components/Navigation';
 import Lost from './components/Lost';
@@ -40,12 +44,16 @@ class App extends  React.Component<IProps, IState> {
                     <Home />
                   )} />
                   <Route exact path="/status" component={Status} />
+                  <Route exact path="/MediaManager" component={MediaManager} />
                   <Route exact path="/setup/Galleries" component={Galleries} />
                   <Route exact path="/setup/Studios" component={Studios} />
                   <Route exact path="/setup/Gui" component={Gui} />
                   <Route exact path="/setup/Devices" component={Devices} />
                   <Route exact path="/setup/Parts" component={Parts} />
+                  <Route exact path="/setup/Pieces" component={Pieces} />
                   <Route exact path="/setup/Backup" component={Backup} />
+                  <Route exact path="/setup/Shows" component={Shows} />
+                  <Route exact path="/setup/Styles" component={Styles} />
                   <Route exact path="/rundown" component={Rundown} />
                   <Route exact path="/test" component={Test} />
                   <Route component={Lost} />

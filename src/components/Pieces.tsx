@@ -1,5 +1,5 @@
 import React from 'react'
-import settingsJson from '../data/parts.json'
+import settingsJson from '../data/pieces.json'
 
 
 interface IProps {
@@ -26,7 +26,7 @@ const initialState ={
 //define the type of state (types mus start with capital)
 type State = Readonly<typeof initialState>
 
-class Parts extends React.Component<IProps, State>{
+class Pieces extends React.Component<IProps, State>{
   readonly state: State = initialState;
 
 
@@ -181,7 +181,7 @@ class Parts extends React.Component<IProps, State>{
                        {deviceColm}
                    </div>
                    <div className="btn-group col3"> 
-                   <h2>Parts</h2>  
+                   <h2>Pieces</h2>  
                        {areaColm}
                        
                    </div>
@@ -199,4 +199,4 @@ class Parts extends React.Component<IProps, State>{
                 
          }
  }
-export default Parts;
+export default Pieces;

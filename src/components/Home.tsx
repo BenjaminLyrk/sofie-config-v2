@@ -67,19 +67,15 @@ class Home extends React.Component<HomeProps, IState> {
                   </button>
                   <div className="umd"></div>
                   <div className={this.state.galActive === items.name ? 'show' : 'hide'} >
-                      <NavLink exact to="/rundown" className={'btnBrowse'}> {items.name + ' BROWSE'}</NavLink>
-                      <NavLink exact to="/rundown" className={'btnStart'}> {items.name + ' CONTROL'}</NavLink>
+                
              
                     </div>
                     </>
                   ))
                   return (              
-                          <div className="pageWrapper home">
-                                <div className="btn-group col1"> 
-                                <h2>galleries</h2> 
-                                {galleriColm}
-                                  </div>
-                                  <div className="btn-group col2">
+                        <div className="pageWrapper home">
+                          <div className="upper">
+                            <div className="btn-group col2">
                                   <h2>Studios</h2> 
                                       {studios.map((i, index) => (
                                        
@@ -93,34 +89,70 @@ class Home extends React.Component<HomeProps, IState> {
                                      </button>
                                      
                                       ))}
-                                  </div>
-                                  <div className="btn-group col3">
-                                  <h2>Rundowns</h2> 
-                                      {rundowns.map(i => (
-                                                <MakeButton
-                                                btnText   = {i}
-                                                btnClass  = {'btnPurple'}
-                                                btnValue  = {i}
-                                                />
-                                      ))}
-                                  </div>
-                                  <div className="btn-group col4">
-                                    <h2>GUI</h2> 
-                                    {gui.map((i, index) => (
-                                       <button 
-                                       key={i+index} 
-                                       className={this.state.guiActive === i ? 'btnCyan active ' : 'btnCyan show'} 
-                                       value={i} 
-                                       onClick={() => this.changeGui('s'+index, i)} 
-                                       >
-                                       {i}
-                                     </button>
-                                     ))}
-                                  </div>
-                                  <div className="below">
-
-                                  </div>
-                                </div>
+                            </div> 
+                            <div className="btn-group col3">
+                              <h2>Rundowns</h2> 
+                                  {rundowns.map(i => (
+                                            <MakeButton
+                                            btnText   = {i}
+                                            btnClass  = {'btnPurple'}
+                                            btnValue  = {i}
+                                            />
+                                  ))}
+                            </div>
+                            <div className="btn-group col4">
+                              <h2>GUI</h2> 
+                              {gui.map((i, index) => (
+                                  <button 
+                                  key={i+index} 
+                                  className={this.state.guiActive === i ? 'btnCyan active ' : 'btnCyan show'} 
+                                  value={i} 
+                                  onClick={() => this.changeGui('s'+index, i)} 
+                                  >
+                                  {i}
+                                </button>
+                                ))}
+                            </div>
+                            <div className="btn-group col4">
+                              <h2>SHOW</h2> 
+                                <button className='btnGrey'>Sporten</button>
+                                <button className='btnGrey'>Nyh</button>
+                            </div>
+                            <div className="btn-group col4">
+                              <h2>STYLE</h2> 
+                                <button className='btnOrange'>Sportsnyheder</button>
+                                <button className='btnOrange'>NBA</button>
+                                <button className='btnOrange'>TENNIS</button>
+                            </div>
+                          </div>
+                          <h3>   Build your galleri</h3>
+                          <div className="lower">
+                         
+                            <div className="btn-group col1"> 
+                                <h2>galleries</h2> 
+                                {galleriColm}
+                            </div>
+                            <div className="btn-group bucketLeft">
+                            <h2>AFV D bucket</h2>
+                              <button className="btnBlue">Studio 4</button>
+                              <button className="btnCyan">FLOW GUI</button>
+                              <button className="btnGrey">Sporten</button>
+                              <button className="btnOrange">NBA</button>
+                              
+                            </div>
+                            <div className="btn-group bucketRight">
+                              <h2>AFV D rundowns</h2>
+                              <button className="btnPurple">01 - SPXRT.ON_AIR</button>
+                              <button className="btnPurple">02 - SPORTEN.SPXRT.NBA</button>
+                            </div>
+                            <div className="btn-group col1">
+                              <h2>AFV D actions</h2>
+                              <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
+                               <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                              </div>
+                          </div> 
+                        </div>
+                          
                           )
               }
 }

@@ -7,7 +7,7 @@
         "devices": [
           {
             "id": "4001",
-            "name": "sofie",
+            "name": "core",
             "area": [
               {
                 "name": "network",
@@ -15,31 +15,51 @@
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "Media preview Url",
-                    "value": "localhost",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "Sofie host url",
-                    "value": "localhost",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "Slack Webhook URLs",
-                    "value": "localhost",
+                    "name": "",
+                    "value": "",
                     "blueprint": ""
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "id": "4001",
+            "name": "playout gateway",
+            "area": [
               {
-                "name": "folder 2",
+                "name": "",
                 "param": [
                   {
-                    "divider": "SETTINGS",
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "",
+                    "value": "",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
                     "_id": "",
                     "name": "",
                     "value": "",

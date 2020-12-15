@@ -28,14 +28,23 @@ class Navigation extends React.Component<IProps, State> {
                   <li key="Studios">
                     <NavLink exact to="/setup/studios" activeClassName="active">Studios</NavLink>
                   </li>
+                  <li key="Shows">
+                    <NavLink exact to="/setup/Shows" activeClassName="active">Shows</NavLink>
+                  </li> 
+                  <li key="Styles">
+                    <NavLink exact to="/setup/Styles" activeClassName="active">Styles</NavLink>
+                  </li>
                   <li key="Gui">
                     <NavLink exact to="/setup/gui" activeClassName="active">Gui</NavLink>
                   </li>
                   <li key="Devices">
-                    <NavLink exact to="/setup/devices" activeClassName="active">Devices</NavLink>
+                    <NavLink exact to="/setup/devices" activeClassName="active">Gateways</NavLink>
                   </li>
                   <li key="Parts">
                     <NavLink exact to="/setup/parts" activeClassName="active">Parts</NavLink>
+                  </li>
+                  <li key="Pieces">
+                    <NavLink exact to="/setup/Pieces" activeClassName="active">Pieces</NavLink>
                   </li>
                   <li key="Backup">
                     <NavLink exact to="/setup/backup" activeClassName="active">Backup</NavLink>
@@ -50,6 +59,9 @@ class Navigation extends React.Component<IProps, State> {
                     </li>
                   <li key="status">
                       <NavLink exact to="/status" activeClassName="active" onClick={() => this.subNav('OFF')}>Status</NavLink>
+                    </li>
+                    <li key="status">
+                      <NavLink exact to="/MediaManager" activeClassName="active" onClick={() => this.subNav('OFF')}>Media manager</NavLink>
                     </li>
                     <li key="Setup">
                       <div  className="dividerBTN" onClick={() => this.subNav('ON')}>Setup</div>

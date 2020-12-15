@@ -36,42 +36,74 @@ div.App {
 .pageWrapper {
   text-align: left;
 }
+div.upper {
+  clear: both;
+  width: 100%;
+  height: 40%;
+}
+div.lower {
+  border-top: 10px solid #222;
+  clear: both;
+  width: 100%;
+  height: 50%;
+  padding-left: 20px;
+}
 .col1 {
-  width: 250px;
+  width: 200px;
   padding: 10px;
 }
+
 .col2 {
-  width: 250px;
+  width: 200px;
   padding: 10px;
 }
 
 .col3 {
-  width: 250px;
+  width: 200px;
   padding: 10px;
 }
 .home .col3 {
-  width: 400px;
+  width: 350px;
   padding: 10px;
 }
 .col4 {
-  width: 250px;
+  width: 200px;
   padding: 10px;
 }
 .colInfo {
-  width: 400px;
+  width: 700px;
   padding: 10px;
 }
 
 /*buttons*/
 div.btn-group,
 div.colStatus {
-  margin-left: 20px;
+  margin-left: 0px;
   float: left;
   background-color: #252525;
   height: 80%;
   min-width: 100px;
   overflow: auto;
   position: relative;
+}
+.bucketLeft,
+.bucketRight {
+  width: 420px;
+  padding: 10px;
+  display: inline-block;
+}
+.lower .col1 {
+  margin-left: 1px !important;
+}
+.bucketLeft {
+  margin-right: 1px !important;
+}
+.bucketRight {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+div.pageWrapper > :first-child {
+  margin-left: 20px;
 }
 div.colStatus {
   width: 1100px;
@@ -85,17 +117,19 @@ div.colStatus {
   z-index: 0;
   background-image: url("./arrow.png");
   background-repeat: no-repeat;
-  background-position: -25px 0%;
+  background-position: -20px 0%;
   top: 25%;
+  opacity: 0.5;
+  background-size: 120%;
 }
 #arrow1 {
-  left: 290px;
+  left: 239px;
 }
 #arrow2 {
-  left: 620px;
+  left: 484px;
 }
 #arrow3 {
-  left: 950px;
+  left: 728px;
 }
 .btn-group h2 {
   text-align: center;
@@ -103,7 +137,7 @@ div.colStatus {
   border-bottom: 1px solid #555;
 }
 .btn-group:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 25px;
 }
 .btn-group button {
   color: white;
@@ -167,15 +201,16 @@ div.colStatus {
 }
 .btn-group a.btnBrowse,
 .btn-group a.btnStart {
-  width: 88px;
+  width: 80%;
   height: 40px;
-  display: inline-block;
+  display: block;
   text-align: center;
   word-break: break-word;
-  margin: 2px 0 0 23px;
+  margin: 20px 0 0 18px;
   border: 1px solid white;
   text-decoration: none;
-  line-height: 20px;
+  line-height: 30px;
+  font-size: small;
 }
 a.btnBrowse {
   background-color: #1f2021;
@@ -212,6 +247,10 @@ div.statusItem {
   float: left;
   overflow: hidden;
 }
+div.statusItem button {
+  width: 50%;
+  display: inline-block;
+}
 .statusHeader {
   font-weight: normal;
   text-transform: capitalize;
@@ -221,6 +260,7 @@ div.statusItem {
   background-color: #005919;
 }
 .statusStatus {
+  clear: both;
   padding: 5px;
   text-align: center;
 }
@@ -233,9 +273,15 @@ DIV.infoValue {
   display: inline-block;
   padding: 4px;
   border: 1px solid grey;
-  height: 40px;
+
   overflow: hidden;
   position: relative;
+}
+.infoItem {
+}
+.divider {
+  color: #999;
+  margin-top: 10px;
 }
 DIV.infoKey {
   width: 33%;
@@ -256,7 +302,7 @@ div.infoItem {
   cursor: pointer;
 }
 div.infoItem select {
-  height: 40px;
+  height: 20px;
   width: 100%;
 }
 .help {
@@ -309,8 +355,13 @@ div.login select {
   margin-left: 20px;
 }
 
-.addItem {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
+div.addItem {
+  background-color: black;
+  position: relative;
+  top: 50px;
+  background-color: #252525;
+}
+
+.colInfo .addItem {
+  width: 120px;
 }

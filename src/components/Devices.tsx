@@ -1,6 +1,7 @@
 import React from 'react'
-import {TestFx} from './Helper'
 import {createInfoItems} from './Helper'
+import {randomId} from './Helper'
+
 import settingsJson from '../data/galleries.json'
 
 
@@ -46,6 +47,7 @@ class Devices extends React.Component<IProps, State>{
     let f:number = parseInt( e.substring(1) );
     this.setState({deviceId: f })
     this.setState({devActive: name })
+    this.setState({infoView: '' })
    }
   
   changeinfo(e:string, name: string){
@@ -84,22 +86,24 @@ class Devices extends React.Component<IProps, State>{
               
             //deviceColumn
             let deviceColm: any = ''
-
+            let id:string = ''
             if (this.state.deviceView === 'defaultView'){
-              deviceColm = (<p>no settings</p>)
+              deviceColm = (<p>Choose galleri</p>)
             } else if (this.state.deviceView.length >= 2) {
-              deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index: number) => (
+              deviceColm = settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index: number) => { 
+                                            //id = randomId(0,1000000)
+                                            id = t
+                                            return (
                                             <button 
-                                            key={t.name+t.id} 
+                                            key={id} 
                                             className={this.state.devActive === t.name ? 'btnGreen active' : 'btnGreen'} 
-                                            value={t.id} 
                                             onClick={() => this.changeArea('i'+index, t.name)}>
                                               {t.name}
                                             </button>
-                                         
-                  ));
+
+                                         )})
                } else {
-                 deviceColm = (<p>no settings</p>)
+                 deviceColm = (<p>choose galleri</p>)
                }
 
 
@@ -107,23 +111,26 @@ class Devices extends React.Component<IProps, State>{
                //area column
                let areaColm: any = ''
                if (this.state.areaView === 'defaultView'){
-                areaColm = (<p>no folders</p>)
+                areaColm = (<p>Choose device</p>)
               } else if (this.state.areaView.length >= 2) {
-                                      areaColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area.map((t:any, index: number) => (
-                                        <button 
-                                            key={t.name+index} 
-                                            className={this.state.areaActive === t.name ? 'btnCyan active' : 'btnCyan'} 
-                                            value={t.name} 
-                                            onClick={() => this.changeinfo('i'+index, t.name)}>
-                                              {t.name}
-                                            </button>
-                                           
-                                           
+                        areaColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area.map((t:any, index: number) => { 
+                          //id = randomId(0,1000000)
+                          id= t
+                          return (
+                             <button 
+                              key={id} 
+                              className={this.state.areaActive === t.name ? 'btnCyan active' : 'btnCyan'} 
+                              value={t.name} 
+                              onClick={() => this.changeinfo('i'+index, t.name)}>
+                                {t.name}
+                              </button>
+                
                                     
-                      ))
+                      )})
+                    // areaColm.push(<div className="addItem"><button className="addItem btnGrey">add new hardware</button></div>);
                       
               } else {
-                areaColm = (<p>no data</p>)
+                areaColm = (<p>choose device</p>)
               } 
 
 
@@ -132,49 +139,53 @@ class Devices extends React.Component<IProps, State>{
                //infoColm
                let infoColm: any = ''
                if (this.state.infoView === 'defaultView'){
-                 infoColm = (<p>no settings</p>)
+                 infoColm = (<p>choose area</p>)
                } else if (this.state.infoView.length >= 2) {
                  infoColm = settingsJson.content.galleries[this.state.galleriId].devices[this.state.deviceId].area[this.state.areaId].param.map((t: any, index:number) => {
-                                                
+                                                      
+                                                      //TO DO function fires constantly 
+                                                      id = t._id //randomId(0,1000000) 
                                                       let valueItem = createInfoItems(t.value)
                                                       return (
                                                        <div key={t._id} className="infoItem">
-                                                           <div className={t.divider.length > 0 ? 'no' : 'hideValue '} >{t.divider}</div>
+                                                           <div className={t.divider.length > 0 ? 'divider' : 'hideValue '} >{t.divider}</div>
                                                            <div className="hideValue">{t._id}</div>
                                                            <div className="infoKey"
-                                                              onMouseOver={() => this.handleBoxToggle(t.name)}
-                                                              onMouseOut={() => this.handleBoxToggle(t.name)}
+                                                              onMouseOver={() => this.handleBoxToggle( t._id)}
+                                                              onMouseOut={() => this.handleBoxToggle( t._id)}
                                                            >{t.name}</div>
                                                            <div className="infoValue">
                                                              {valueItem}</div>
-                                                             <div className={this.state.overMe === t.name ? 'help show' : 'help hide'}>
+                                                             <div className={this.state.overMe ===  t._id ? 'help show' : 'help hide'}>
                                                                 {t.blueprint}
                                                             </div>   
                                                        </div>
                                                        )
                                                    
                                              })
+                infoColm.push(<div className="addItem"><button className=" btnGrey">add new setting</button></div>);
                                           
              } else {
-                 infoColm = (<p>no settings</p>)
+                 infoColm = (<p>choose area</p>)
                }
            return (
              <div className="pageWrapper status">
                    
                    <div className="btn-group col1">
-                   <h2>galleries</h2>  
+                   <h2>Galleries</h2>  
                        {galleriColm}
                    </div>
                    <div className="btn-group col2">  
-                   <h2>devices</h2> 
+                   <h2>Gateways</h2> 
                        {deviceColm}
                    </div>
                    <div className="btn-group col3"> 
-                   <h2>area</h2>  
+                   <h2>Area</h2>  
                        {areaColm}
+                       
                    </div>
                    <div className="btn-group colInfo"> 
-                   <h2>settings</h2> 
+                   <h2>Blueprint Settings</h2> 
                          {infoColm}
                        
                    </div>

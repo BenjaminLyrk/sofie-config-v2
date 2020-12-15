@@ -54,3 +54,9 @@ export function createInfoItems (param: string) {
     return result  
  
 }
+
+export function randomId(min:number, max:number) {
+
+  let randomNum = Math.random() * (max - min) + min;
+  return Math.floor(randomNum);
+}

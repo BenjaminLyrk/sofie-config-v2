@@ -44,6 +44,17 @@ class Studios extends React.Component<IProps, State>{
                    <h2>Studios</h2>  
                        {studios}
                    </div>
+                   <div className="btn-group colInfo">
+                   <h2>settings</h2>  
+                       <ul>
+                         <li>number of kameras</li>
+                         <li>number of host mics</li>
+                         <li>number of guests</li>
+                         <li>sends to the studioI</li>
+                         <li>robotic system</li>
+                         <li>wall graphic system</li>
+                       </ul>
+                   </div>
                  
              </div>    
            

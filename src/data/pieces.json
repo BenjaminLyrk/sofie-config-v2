@@ -1,0 +1,117 @@
+{
+  "content": {
+    "presets": [
+      {
+        "id": "4000",
+        "name": "Preset 1",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "overlay graphic",
+            "area": [
+              {
+                "name": "Viz OVL",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "inews cue",
+                    "value": "arkiv",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "viz template",
+                    "value": "arkiv",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Sofie Layer",
+                    "value": "graphic_overlay_ident",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4000",
+        "name": " ----- Addon 1",
+        "devices": [
+          {
+            "id": "4001",
+            "name": "Viz OVL",
+            "area": [
+              {
+                "name": "11",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 11",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "17",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              },
+              {
+                "name": "12",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 12",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "12",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

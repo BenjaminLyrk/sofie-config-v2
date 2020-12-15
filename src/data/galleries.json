@@ -64,7 +64,7 @@
             ]
           },
           {
-            "id": "4002",
+            "id": "2001",
             "name": "vision mixer 01",
             "area": [
               {
@@ -72,30 +72,161 @@
                 "param": [
                   {
                     "divider": "",
-                    "_id": "4008",
+                    "_id": "2010",
                     "name": "Vmx type",
                     "value": "Atem",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4009",
+                    "_id": "2011",
+                    "name": "name",
+                    "value": "Atem0",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2012",
                     "name": "ip",
                     "value": "Localhost",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4010",
+                    "_id": "2013",
                     "name": "Default source",
                     "value": "2001",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4011",
+                    "_id": "2014",
                     "name": "Continuity soure",
                     "value": "2002",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2015",
+                    "name": "Max inputs",
+                    "value": "40",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "ME",
+                "param": [
+                  {
+                    "divider": "PROGRAM",
+                    "_id": "2020",
+                    "name": "Sofie Layer",
+                    "value": "atem_me_program",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2021",
+                    "name": "Lookahead",
+                    "value": "none",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2022",
+                    "name": "Mapping type",
+                    "value": "mixEffekt",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2023",
+                    "name": "index",
+                    "value": "1",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "CLEAN",
+                    "_id": "2024",
+                    "name": "Sofie Layer",
+                    "value": "atem_me_clean",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2025",
+                    "name": "Lookahead",
+                    "value": "none",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2026",
+                    "name": "Mapping type",
+                    "value": "mixEffekt",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2027",
+                    "name": "index",
+                    "value": "3",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "CLEAN USK ?",
+                    "_id": "2028",
+                    "name": "Sofie Layer",
+                    "value": "atem_clean_usk_effect",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2029",
+                    "name": "Lookahead",
+                    "value": "none",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2030",
+                    "name": "Mapping type",
+                    "value": "mixEffekt",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2031",
+                    "name": "index",
+                    "value": "3",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "AUX PGM (PGM minus ?)",
+                    "_id": "2032",
+                    "name": "Sofie Layer",
+                    "value": "atem_aux_pgm",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2033",
+                    "name": "Lookahead",
+                    "value": "none",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2034",
+                    "name": "Mapping type",
+                    "value": "Auxillary",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "2035",
+                    "name": "index",
+                    "value": "0",
                     "blueprint": ""
                   }
                 ]
@@ -105,87 +236,94 @@
                 "param": [
                   {
                     "divider": "DSK 1 - VIZ OVERLAY",
-                    "_id": "4012",
+                    "_id": "2030",
                     "name": "DSK 1 fill INP",
                     "value": "29",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4013",
+                    "_id": "2031",
                     "name": "DSK1 KEY INP",
                     "value": "31",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4014",
+                    "_id": "1032",
                     "name": "DSK1 key clip",
                     "value": "50",
                     "blueprint": "Viz keyer clip"
                   },
                   {
                     "divider": "",
-                    "_id": "4015",
+                    "_id": "2033",
                     "name": "DSK1 key gain",
                     "value": "12.5",
                     "blueprint": "Viz keyer gain"
                   },
                   {
                     "divider": "DSK 2 - JINGLES",
-                    "_id": "4016",
+                    "_id": "2034",
                     "name": "DSK 2 fill INP",
                     "value": "21",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4017",
+                    "_id": "2035",
                     "name": "DSK 2  KEY INP",
                     "value": "34",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4018",
+                    "_id": "2036",
                     "name": "DSK 2 key clip",
                     "value": "50",
                     "blueprint": "Viz keyer clip"
                   },
                   {
                     "divider": "",
-                    "_id": "4019",
+                    "_id": "2037",
                     "name": "DSK 2 key gain",
                     "value": "12.5",
                     "blueprint": "Viz keyer gain"
                   },
                   {
                     "divider": "DSK 3 - not in use",
-                    "_id": "4020",
+                    "_id": "2038",
                     "name": "DSK 3 fill INP",
                     "value": "21",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4021",
+                    "_id": "2039",
                     "name": "DSK 3  KEY INP",
                     "value": "34",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4022",
+                    "_id": "2040",
                     "name": "DSK 3 key clip",
                     "value": "50",
                     "blueprint": "Viz keyer clip"
                   },
                   {
                     "divider": "",
-                    "_id": "4023",
+                    "_id": "2041",
                     "name": "DSK 3 key gain",
                     "value": "12.5",
                     "blueprint": "Viz keyer gain"
+                  },
+                  {
+                    "divider": "DSK 10 - NEXT",
+                    "_id": "2042",
+                    "name": "Sofie layer",
+                    "value": "atem_aux_lookahead",
+                    "blueprint": ""
                   }
                 ]
               },
@@ -193,87 +331,66 @@
                 "name": "AUX",
                 "param": [
                   {
-                    "divider": "Default inputs",
+                    "divider": "AUX 1",
                     "_id": "4024",
-                    "name": "AUX 1",
-                    "value": "29",
+                    "name": "name",
+                    "value": "Clean",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4025",
-                    "name": "AUX 2",
-                    "value": "31",
+                    "name": "Sofie layer ID",
+                    "value": "atem_aux_clean",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4026",
-                    "name": "AUX 3",
-                    "value": "50",
+                    "name": "Default source",
+                    "value": "29",
                     "blueprint": ""
                   },
                   {
-                    "divider": "",
+                    "divider": "AUX 2",
                     "_id": "4027",
-                    "name": "AUX 4",
-                    "value": "",
+                    "name": "name",
+                    "value": "to wall",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4028",
-                    "name": "AUX 5",
-                    "value": "21",
+                    "name": "Sofie layer ID",
+                    "value": "atem_aux_wall",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4029",
-                    "name": "AUX 6",
-                    "value": "34",
+                    "name": "Default source",
+                    "value": "14",
                     "blueprint": ""
                   },
                   {
-                    "divider": "",
+                    "divider": "AUX 3",
                     "_id": "4030",
-                    "name": "AUX 7",
-                    "value": "50",
+                    "name": "name",
+                    "value": "to AR",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4031",
-                    "name": "AUX 8",
-                    "value": "",
+                    "name": "Sofie layer ID",
+                    "value": "atem_aux_ar",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4032",
-                    "name": "AUX 9",
-                    "value": "21",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "4033",
-                    "name": "AUX 10",
-                    "value": "34",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "4034",
-                    "name": "AUX 11",
-                    "value": "50",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "4035",
-                    "name": "AUX 12",
-                    "value": "12",
+                    "name": "Default source",
+                    "value": "13",
                     "blueprint": ""
                   }
                 ]
@@ -305,7 +422,7 @@
                 ]
               },
               {
-                "name": "VMX mediaplayer",
+                "name": "Atem mediaplayer",
                 "param": [
                   {
                     "divider": "SETTINGS",
@@ -319,20 +436,165 @@
                     "_id": "4040",
                     "name": "MP 1 loop ?",
                     "value": "yes",
-                    "blueprint": "ATEM MP1 baseline clip loop"
+                    "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4041",
                     "name": "MP 1 play ?",
                     "value": "yes",
-                    "blueprint": "ATEM MP1 baseline clip playing"
+                    "blueprint": ""
                   },
                   {
                     "divider": "",
                     "_id": "4042",
                     "name": "Continuity soure",
                     "value": "2002",
+                    "blueprint": ""
+                  }
+                ]
+              },
+              {
+                "name": "ATEM SOURCE MAPPING",
+                "param": [
+                  {
+                    "divider": "ATEM INPUTS",
+                    "_id": "4039",
+                    "name": "INP 1",
+                    "value": "LIVE 1",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4040",
+                    "name": "INP 2",
+                    "value": "LIVE 2",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4041",
+                    "name": "INP 3",
+                    "value": "LIVE 3",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4042",
+                    "name": "INP 4",
+                    "value": "LIVE 4",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4043",
+                    "name": "INP 5",
+                    "value": "LIVE 5",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4044",
+                    "name": "INP 6",
+                    "value": "LIVE 6",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4045",
+                    "name": "INP 7",
+                    "value": "LIVE 7",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4046",
+                    "name": "INP 8",
+                    "value": "LIVE 8",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4047",
+                    "name": "INP 9",
+                    "value": "LIVE 9",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4048",
+                    "name": "INP 10",
+                    "value": "LIVE 10",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4049",
+                    "name": "INP 11",
+                    "value": "KAM 1 PRI",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4050",
+                    "name": "INP 12",
+                    "value": "KAM 2 PRI",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4051",
+                    "name": "INP 13",
+                    "value": "KAM 3 PRI",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4052",
+                    "name": "INP 14",
+                    "value": "KAM 4 PRI",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4053",
+                    "name": "INP 15",
+                    "value": "KAM 5 PRI",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4054",
+                    "name": "INP 16",
+                    "value": "KAM 1 SEC",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "INTERNAL RESOURCES",
+                    "_id": "4055",
+                    "name": "ME 1",
+                    "value": "PGM",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4056",
+                    "name": "ME 2",
+                    "value": "DVE",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4057",
+                    "name": "ME 3",
+                    "value": "CLEAN",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4058",
+                    "name": "2001",
+                    "value": "BLACK",
                     "blueprint": ""
                   }
                 ]
@@ -504,8 +766,15 @@
             "name": "graphic 01",
             "area": [
               {
-                "name": "ovl",
+                "name": "VIZ OVL",
                 "param": [
+                  {
+                    "divider": "SETTINGS",
+                    "_id": "40172",
+                    "name": "area name",
+                    "value": "VIZ OVL",
+                    "blueprint": ""
+                  },
                   {
                     "divider": "",
                     "_id": "4065",
@@ -558,33 +827,201 @@
                 ]
               },
               {
-                "name": "full",
+                "name": "Caspar02",
                 "param": [
                   {
-                    "divider": "",
-                    "_id": "4072",
-                    "name": "type",
-                    "value": "viz",
+                    "divider": "SETTINGS",
+                    "_id": "40172",
+                    "name": "area name",
+                    "value": "Caspar02",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4073",
+                    "_id": "40172",
+                    "name": "type",
+                    "value": "Caspar CG",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "40172",
                     "name": "ip",
                     "value": "localhost",
                     "blueprint": ""
                   },
                   {
-                    "divider": "",
-                    "_id": "4074",
-                    "name": "MSE",
-                    "value": "localhost",
+                    "divider": "DVE LOOP",
+                    "_id": "4173",
+                    "name": "Sofie layer ID",
+                    "value": "casparcg_dve_loop",
                     "blueprint": ""
                   },
                   {
                     "divider": "",
-                    "_id": "4075",
-                    "name": "Prevent Overlay with Full",
+                    "_id": "4174",
+                    "name": "Caspar cg Channel",
+                    "value": "2",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4175",
+                    "name": "Caspar cg layer",
+                    "value": "110",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4156",
+                    "name": "Lookahead mode",
+                    "value": "When clear",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4377",
+                    "name": "Preview when not on air",
+                    "value": "yes",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "DVE KEY",
+                    "_id": "4373",
+                    "name": "Sofie layer ID",
+                    "value": "casparcg_dve_loop",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4374",
+                    "name": "Caspar cg Channel",
+                    "value": "2",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4375",
+                    "name": "Caspar cg layer",
+                    "value": "109",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4376",
+                    "name": "Lookahead mode",
+                    "value": "When clear",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4477",
+                    "name": "Preview when not on air",
+                    "value": "yes",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "DVE FRAME",
+                    "_id": "4473",
+                    "name": "Sofie layer ID",
+                    "value": "casparcg_dve_frame",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4474",
+                    "name": "Caspar cg Channel",
+                    "value": "2",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4475",
+                    "name": "Caspar cg layer",
+                    "value": "111",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4476",
+                    "name": "Lookahead mode",
+                    "value": "When clear",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4437",
+                    "name": "Preview when not on air",
+                    "value": "yes",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "JINGLE PLAYER",
+                    "_id": "4473",
+                    "name": "Sofie layer ID",
+                    "value": "casparcg_player_jingle",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4474",
+                    "name": "Caspar cg Channel",
+                    "value": "1",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4475",
+                    "name": "Caspar cg layer",
+                    "value": "120",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4476",
+                    "name": "Lookahead mode",
+                    "value": "Preload",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4437",
+                    "name": "Preview when not on air",
+                    "value": "yes",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "Countdown",
+                    "_id": "4473",
+                    "name": "Sofie layer ID",
+                    "value": "casparcg_countdown",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4474",
+                    "name": "Caspar cg Channel",
+                    "value": "3",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4475",
+                    "name": "Caspar cg layer",
+                    "value": "120",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4476",
+                    "name": "Lookahead mode",
+                    "value": "none",
+                    "blueprint": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "4437",
+                    "name": "Preview when not on air",
                     "value": "yes",
                     "blueprint": ""
                   }

@@ -45,7 +45,12 @@ class Galleries extends React.Component<IProps, State>{
                    <h2>galleries</h2>  
                        {galleriColm}
                    </div>
-                 
+                   <div className="btn-group colInfo">
+                   <h2>settings</h2>  
+                   <ul>
+                         <li>which sofie server</li>
+                       </ul>
+                 </div>
              </div>    
            
            )

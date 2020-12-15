@@ -566,257 +566,65 @@
       },
       {
         "id": "4000",
-        "name": "Preset 2",
+        "name": " ----- Addon 1",
         "devices": [
           {
             "id": "4001",
             "name": "Camera",
             "area": [
               {
-                "name": "network",
+                "name": "11",
                 "param": [
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "",
-                    "value": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 11",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "vmx input",
+                    "value": "17",
+                    "help": "",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "open studio mics",
+                    "value": "yes",
                     "help": "",
                     "note": ""
                   }
                 ]
               },
               {
-                "name": "folder 2",
+                "name": "12",
                 "param": [
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "",
-                    "value": "",
+                    "name": "nrcs Cue",
+                    "value": "Kam 12",
                     "help": "",
                     "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4002",
-            "name": "External",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
+                  },
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "",
-                    "value": "",
+                    "name": "vmx input",
+                    "value": "12",
                     "help": "",
                     "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
+                  },
                   {
                     "divider": "",
                     "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4003",
-            "name": "Clips",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4004",
-            "name": "Splits",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4005",
-            "name": "Graphic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4006",
-            "name": "Vignette",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4007",
-            "name": "misc",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4008",
-            "name": "router",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "help": "",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
+                    "name": "open studio mics",
+                    "value": "yes",
                     "help": "",
                     "note": ""
                   }

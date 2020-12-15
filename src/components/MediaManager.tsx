@@ -1,6 +1,5 @@
 import React from 'react'
 import {TestFx} from './Helper'
-import {getData} from './Helper'
 import settingsJson from '../data/status.json'
 
 
@@ -28,7 +27,7 @@ const initialState ={
 //define the type of state (types mus start with capital)
 type State = Readonly<typeof initialState>
 
-class Status extends React.Component<IProps, State>{
+class MediaManager extends React.Component<IProps, State>{
   readonly state: State = initialState;
 
 
@@ -83,25 +82,7 @@ class Status extends React.Component<IProps, State>{
               ))
             
               
-            //deviceColumn
-            let devices: any = ''
-
-            if (this.state.deviceView === 'defaultView'){
-              devices = (<p>no settings</p>)
-            } else if (this.state.deviceView.length >= 2) {
-              devices= settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index: number) => (
-                                            <div key={t.name+t.id} className="statusItem">
-                                                <h2  className='statusHeader' > {t.name}</h2>
-                                                <div className="statusStatus statusGreen">
-                                                     <span >status : </span><span>OK</span>
-                                                </div>
-                                                <button className="btnGrey ">restart</button>
-                                                <button className="btnGrey ">Disable</button>
-                                                <span className="last">Last seen : </span><span className="last">14-12-2021 16:42</span>
-                                            </div>
-                                         
-                  ));
-               } 
+         
    
            return (
              <div className="pageWrapper status">
@@ -112,7 +93,7 @@ class Status extends React.Component<IProps, State>{
                    </div>
                    <div className="btn-group colStatus">  
                    <h2>status</h2> 
-                       {devices}
+                      <div>list of ingestet clips and there status</div>
                    </div>
                    
                    
@@ -125,4 +106,4 @@ class Status extends React.Component<IProps, State>{
                 
          }
  }
-export default Status;
+export default MediaManager;

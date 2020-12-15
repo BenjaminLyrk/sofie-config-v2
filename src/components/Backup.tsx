@@ -22,10 +22,18 @@ class Backup extends React.Component<IProps, State>{
            return (
              <div className="pageWrapper backup">
                    
-                  
-                   <h2>Backup page</h2>  
-                    
-                 
+               <div className="btn-group col1">
+                    <h2>Database</h2>  
+                    <button className="btnGrey">backup </button>
+                    <button className="btnGrey">Export </button>
+                    <button className="btnGrey">Upload </button>
+              </div> 
+              <div className="btn-group col2">
+                    <h2>sofie settings</h2>  
+                    <button className="btnGrey">backup </button>
+                    <button className="btnGrey">Export </button>
+                    <button className="btnGrey">Upload </button>
+              </div>     
              </div>    
            
            )
