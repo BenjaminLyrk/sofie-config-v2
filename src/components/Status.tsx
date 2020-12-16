@@ -1,28 +1,22 @@
 import React from 'react'
-import {TestFx} from './Helper'
-import {getData} from './Helper'
+import './Status.css';
 import settingsJson from '../data/status.json'
 
 
 interface IProps {
-  btnText: string,
-  btnClass: string,
-  btnValue:  string
+
 }
 
 //define state
 const initialState ={
   text: 'settings',
-  deviceView: 'defaultView',
-  areaView: 'defaultView',
-  infoView: 'defaultView',
+  deviceView: 'AFV D',
   deviceId: 0,
   galleriId: 0,
   areaId: 0,
-  galActive: '',
+  galActive: 'AFV D',
   devActive: '',
-  areaActive: '',
-  overMe: ''
+  date: new Date()
 }
 
 //define the type of state (types mus start with capital)
@@ -30,8 +24,8 @@ type State = Readonly<typeof initialState>
 
 class Status extends React.Component<IProps, State>{
   readonly state: State = initialState;
-
-
+  
+ 
 
   //change state.view from mouseCLick
   changeDevices(e:string, name: string){
@@ -41,35 +35,9 @@ class Status extends React.Component<IProps, State>{
     this.setState({galActive: name })
   
   }
-  changeArea(e:string, name: string){
-    this.setState({areaView: e})
-    let f:number = parseInt( e.substring(1) );
-    this.setState({deviceId: f })
-    this.setState({devActive: name })
-   }
-  
-  changeinfo(e:string, name: string){
-   this.setState({infoView: e})
-   let f:number = parseInt( e.substring(1) );
-   this.setState({areaId: f })
-   this.setState({areaActive: name })
-   }
- 
-   handleBoxToggle(e:string){
-     if(this.state.overMe  !== e)
-     { 
-      this.setState({overMe: e })
-      } else {
-        this.setState({overMe: '' })
-      }
-   }
 
-
-   
-
- 
    render(){  
-            TestFx('value')  //importet function from Helper 
+             
              //galleries column
              const galleriColm = settingsJson.content.galleries.map((items: any, index: Number) => ( 
               <button 
@@ -85,19 +53,24 @@ class Status extends React.Component<IProps, State>{
               
             //deviceColumn
             let devices: any = ''
-
-            if (this.state.deviceView === 'defaultView'){
+            const dateOptions: any = {  year: 'numeric', month: 'long', day: 'numeric' }
+            const timeOptions: any = {   hour12: false }
+            const rightNow = this.state.date.toLocaleDateString('da-DK',dateOptions) + ' ' + this.state.date.toLocaleTimeString('da-DK',timeOptions)
+              if (this.state.deviceView === 'defaultView'){
               devices = (<p>no settings</p>)
             } else if (this.state.deviceView.length >= 2) {
               devices= settingsJson.content.galleries[this.state.galleriId].devices.map((t: any, index: number) => (
                                             <div key={t.name+t.id} className="statusItem">
                                                 <h2  className='statusHeader' > {t.name}</h2>
-                                                <div className="statusStatus statusGreen">
-                                                     <span >status : </span><span>OK</span>
+                                                <div className={t.status ===  'ok' ? 'statusStatus statusGreen' : 'statusStatus statusRed'}>
+                                                     <span >status : </span><span>{t.status}</span>
                                                 </div>
                                                 <button className="btnGrey ">restart</button>
                                                 <button className="btnGrey ">Disable</button>
-                                                <span className="last">Last seen : </span><span className="last">14-12-2021 16:42</span>
+                                                <div className="last">Last seen : </div><div className="last">
+                                                    {t.status ===  'ok' ? rightNow : t.last_seen}
+                                                      
+                                                </div>
                                             </div>
                                          
                   ));

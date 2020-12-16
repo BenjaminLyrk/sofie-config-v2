@@ -226,6 +226,10 @@ a.btnStart {
   background-color: #af4900;
   color: white;
 }
+.btnStriped {
+  background-color: #252525;
+  border: 2px dashed #666 !important;
+}
 .btnOrange:hover,
 .btnOrangeDim {
   background-color: #573a25;
@@ -238,31 +242,6 @@ a.btnStart {
   width: 200px;
   height: 20px;
   border: 1px solid white;
-}
-div.statusItem {
-  width: 230px;
-  height: 140px;
-  border: 1px solid white;
-  margin: 20px;
-  float: left;
-  overflow: hidden;
-}
-div.statusItem button {
-  width: 50%;
-  display: inline-block;
-}
-.statusHeader {
-  font-weight: normal;
-  text-transform: capitalize;
-  background-color: black;
-}
-.statusGreen {
-  background-color: #005919;
-}
-.statusStatus {
-  clear: both;
-  padding: 5px;
-  text-align: center;
 }
 .last {
   font-size: small;
@@ -277,8 +256,7 @@ DIV.infoValue {
   overflow: hidden;
   position: relative;
 }
-.infoItem {
-}
+
 .divider {
   color: #999;
   margin-top: 10px;

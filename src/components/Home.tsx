@@ -31,7 +31,7 @@ class Home extends React.Component<HomeProps, IState> {
       infoView: 'defaultView',
       deviceId: 0,
       galleriId: 0,
-      galActive: '',
+      galActive: 'AFV D',
       stuActive: '',
       guiActive: '',
       redirect: false
@@ -134,7 +134,7 @@ class Home extends React.Component<HomeProps, IState> {
                             </div>
                             <div className="btn-group bucketLeft">
                             <h2>AFV D bucket</h2>
-                              <button className="btnBlue">Studio 4</button>
+                              <button className="btnStriped">Studio ? </button>
                               <button className="btnCyan">FLOW GUI</button>
                               <button className="btnGrey">Sporten</button>
                               <button className="btnOrange">NBA</button>

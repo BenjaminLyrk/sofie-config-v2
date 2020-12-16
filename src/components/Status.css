@@ -1,0 +1,35 @@
+div.statusItem {
+  font-size: 12px;
+  width: 180px;
+  height: 115px;
+  border: 1px solid white;
+  margin: 15px;
+  float: left;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+div.statusItem button {
+  width: 50%;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: capitalize;
+  height: 35px;
+  margin: 0px;
+}
+.statusHeader {
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: capitalize;
+  background-color: black;
+}
+.statusGreen {
+  background-color: #005919;
+}
+.statusRed {
+  background-color: #761912;
+}
+.statusStatus {
+  clear: both;
+  padding: 5px;
+  text-align: center;
+}

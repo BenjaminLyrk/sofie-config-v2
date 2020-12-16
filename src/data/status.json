@@ -8,331 +8,92 @@
           {
             "id": "4001",
             "name": "core",
-            "area": [
-              {
-                "name": "network",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4001",
             "name": "playout gateway",
-            "area": [
-              {
-                "name": "",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4002",
             "name": "vision mixer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4003",
-            "name": "audio mixer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Sisyfos",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4003",
+            "name": "SSL audiomixer",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4004",
-            "name": "mediaplayer",
-            "area": [
-              {
-                "name": "settings",
-                "param": [
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Supported Media formats",
-                    "value": "1920x1080i5000tff,1920x1080p5000,1920x1080i2500tff,1920x1080p2500,1920x1080i2500",
-                    "blueprint": ""
-                  },
-                  {
-                    "divider": "",
-                    "_id": "",
-                    "name": "Supported audio formats",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Caspar01",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4004",
+            "name": "Caspar02",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4005",
-            "name": "graphic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "VIZ MSE",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4005",
+            "name": "VIZ OVERLAY",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4005",
+            "name": "VIZ WALL",
+            "status": "NO CONNECTION",
+            "last_seen": "12 December 2020 12.15.00"
           },
           {
             "id": "4006",
             "name": "robotic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4007",
             "name": "light",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4008",
             "name": "router",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4009",
             "name": "gpo in/out",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4010",
             "name": "nrcs",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "14-12-2020"
           }
         ]
       },
@@ -342,303 +103,93 @@
         "devices": [
           {
             "id": "4001",
-            "name": "sofie",
-            "area": [
-              {
-                "name": "network",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "core",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4001",
+            "name": "playout gateway",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4002",
             "name": "vision mixer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4003",
-            "name": "audio mixer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Sisyfos",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4003",
+            "name": "SSL audiomixer",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4004",
-            "name": "mediaplayer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Caspar01",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4004",
+            "name": "Caspar02",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4005",
-            "name": "graphic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "VIZ MSE",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4005",
+            "name": "VIZ OVERLAY",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4005",
+            "name": "VIZ WALL",
+            "status": "NO CONNECTION",
+            "last_seen": "12 December 2020 12.15.00"
           },
           {
             "id": "4006",
             "name": "robotic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4007",
             "name": "light",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4008",
             "name": "router",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4009",
             "name": "gpo in/out",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "NO CONNECTION",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4010",
             "name": "nrcs",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "14-12-2020"
           }
         ]
       },
@@ -648,303 +199,51 @@
         "devices": [
           {
             "id": "4001",
-            "name": "sofie",
-            "area": [
-              {
-                "name": "network",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "core",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4001",
+            "name": "playout gateway",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4002",
             "name": "vision mixer",
-            "area": [
-              {
-                "name": "config",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "type",
-                    "value": "Atem",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4003",
-            "name": "audio mixer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Sisyfos",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
+          },
+          {
+            "id": "4003",
+            "name": "SSL audiomixer",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4004",
-            "name": "mediaplayer",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "name": "Caspar01",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
-            "id": "4005",
-            "name": "graphic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4006",
-            "name": "robotic",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4007",
-            "name": "light",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4008",
-            "name": "router",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "4009",
-            "name": "gpo in/out",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "id": "4004",
+            "name": "Caspar02",
+            "status": "ok",
+            "last_seen": "1 Januar 2020 08.00.10"
           },
           {
             "id": "4010",
             "name": "nrcs",
-            "area": [
-              {
-                "name": "folder 1",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              },
-              {
-                "name": "folder 2",
-                "param": [
-                  {
-                    "divider": "SETTINGS",
-                    "_id": "",
-                    "name": "",
-                    "value": "",
-                    "blueprint": ""
-                  }
-                ]
-              }
-            ]
+            "status": "ok",
+            "last_seen": "14-12-2020"
           }
         ]
       }
