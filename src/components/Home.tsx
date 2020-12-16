@@ -31,7 +31,7 @@ class Home extends React.Component<HomeProps, IState> {
       infoView: 'defaultView',
       deviceId: 0,
       galleriId: 0,
-      galActive: 'AFV D',
+      galActive: 'AFV C',
       stuActive: '',
       guiActive: '',
       redirect: false
@@ -126,31 +126,82 @@ class Home extends React.Component<HomeProps, IState> {
                             </div>
                           </div>
                           <h3>   Build your galleri</h3>
-                          <div className="lower">
+                          <div className='lower'>
                          
                             <div className="btn-group col1"> 
                                 <h2>galleries</h2> 
                                 {galleriColm}
+                             
                             </div>
-                            <div className="btn-group bucketLeft">
-                            <h2>AFV D bucket</h2>
-                              <button className="btnStriped">Studio ? </button>
-                              <button className="btnCyan">FLOW GUI</button>
-                              <button className="btnGrey">Sporten</button>
-                              <button className="btnOrange">NBA</button>
-                              
-                            </div>
-                            <div className="btn-group bucketRight">
-                              <h2>AFV D rundowns</h2>
-                              <button className="btnPurple">01 - SPXRT.ON_AIR</button>
-                              <button className="btnPurple">02 - SPORTEN.SPXRT.NBA</button>
-                            </div>
-                            <div className="btn-group col1">
-                              <h2>AFV D actions</h2>
-                              <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
-                               <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                            <div className={this.state.galActive === 'AFV D' ? 'bucketWrapper show' : ' hide'}>
+                                  <div className="btn-group bucketLeft">
+                                  <h2>AFV D bucket</h2>
+                                    <button className="btnStriped">Studio ? </button>
+                                    <button className="btnCyan">FLOW GUI</button>
+                                    <button className="btnGrey">Sporten</button>
+                                    <button className="btnOrange">NBA</button>
+                                    
+                                  </div>
+                                  <div className="btn-group bucketRight">
+                                    <h2>AFV D rundowns</h2>
+                                    <button className="btnPurple">01 - SPXRT.ON_AIR</button>
+                                    <button className="btnPurple">02 - SPORTEN.SPXRT.NBA</button>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                  </div>
+                                  <div className="btn-group col1">
+                                    <h2>AFV D actions</h2>
+                                    <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
+                                    <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    </div>
                               </div>
+                              <div className={this.state.galActive === 'AFV C' ? 'bucketWrapper show' : ' hide'}>
+                                  <div className="btn-group bucketLeft">
+                                  <h2>AFV D bucket</h2>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"></button>
+                                    <button className="btnStriped"></button>
+                                    <button className="btnStriped"></button>
+                                    
+                                  </div>
+                                  <div className="btn-group bucketRight">
+                                    <h2>AFV C rundowns</h2>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                  </div>
+                                  <div className="btn-group col1">
+                                    <h2>AFV C actions</h2>
+                                    <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
+                                    <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    </div>
+                              </div>
+                              <div className={this.state.galActive === 'AFV Q2' ? 'bucketWrapper show' : ' hide'}>
+                                  <div className="btn-group bucketLeft">
+                                  <h2>AFV Q2 bucket</h2>
+                                  <button className="btnStriped"> </button>
+                                    <button className="btnStriped"></button>
+                                    <button className="btnStriped"></button>
+                                    <button className="btnStriped"></button>
+                                    
+                                  </div>
+                                  <div className="btn-group bucketRight">
+                                    <h2>AFV Q2 rundowns</h2>
+                                    <button className="btnPurple">01 - Q2.ON_AIR</button>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                    <button className="btnStriped"> </button>
+                                  </div>
+                                  <div className="btn-group col1">
+                                    <h2>AFV Q2 actions</h2>
+                                    <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
+                                    <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    </div>
+                              </div>
+                            
                           </div> 
+                            
                         </div>
                           
                           )

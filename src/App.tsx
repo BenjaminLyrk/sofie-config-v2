@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import './Login.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Status from './components/Status';
@@ -74,6 +75,7 @@ class App extends  React.Component<IProps, IState> {
                             <option value="1">USER</option>
                             <option value="100">ADMIN</option>
                         </select>
+                        <input type="text" placeholder="Enter Password" name="uname" />
                     </form>
                 </div>
       )

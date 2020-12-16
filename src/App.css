@@ -343,3 +343,7 @@ div.addItem {
 .colInfo .addItem {
   width: 120px;
 }
+.bucketWrapper {
+  width: 100%;
+  height: 100%;
+}
