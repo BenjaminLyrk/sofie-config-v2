@@ -49,6 +49,9 @@ class Galleries extends React.Component<IProps, State>{
                    <h2>settings</h2>  
                    <ul>
                          <li>which sofie server</li>
+                         <li>standard GUI</li>
+                         <li>standard show</li>
+                         <li>standard rundown</li>
                        </ul>
                  </div>
              </div>    

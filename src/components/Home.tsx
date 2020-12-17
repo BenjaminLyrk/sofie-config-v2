@@ -153,6 +153,7 @@ class Home extends React.Component<HomeProps, IState> {
                                     <h2>AFV D actions</h2>
                                     <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
                                     <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    <button className="btnGrey">RESET to STANDARD</button>
                                     </div>
                               </div>
                               <div className={this.state.galActive === 'AFV C' ? 'bucketWrapper show' : ' hide'}>
@@ -175,6 +176,8 @@ class Home extends React.Component<HomeProps, IState> {
                                     <h2>AFV C actions</h2>
                                     <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
                                     <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    <button className="btnGrey">RESET to STANDARD</button>
+                                     
                                     </div>
                               </div>
                               <div className={this.state.galActive === 'AFV Q2' ? 'bucketWrapper show' : ' hide'}>
@@ -197,6 +200,7 @@ class Home extends React.Component<HomeProps, IState> {
                                     <h2>AFV Q2 actions</h2>
                                     <NavLink exact to="/rundown" className={'btnBrowse'}> {'BROWSE'}</NavLink>
                                     <NavLink exact to="/rundown" className={'btnStart'}> {'CONTROL'}</NavLink>
+                                    <button className="btnGrey">RESET to STANDARD</button>
                                     </div>
                               </div>
                             

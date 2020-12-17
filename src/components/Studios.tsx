@@ -48,11 +48,13 @@ class Studios extends React.Component<IProps, State>{
                    <h2>settings</h2>  
                        <ul>
                          <li>number of kameras</li>
+                         <li>change inputs in vmx (vsm)</li>
                          <li>number of host mics</li>
                          <li>number of guests</li>
-                         <li>sends to the studioI</li>
+                         <li>video/audio sends to the studio</li>
                          <li>robotic system</li>
                          <li>wall graphic system</li>
+                         <li>AR system</li>
                        </ul>
                    </div>
                  

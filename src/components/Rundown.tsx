@@ -13,9 +13,15 @@ const Rundown =(props: SettingVars): any => {
             <NavLink exact to="/" className="btn"> MAIN PAGE</NavLink>
             <select> 
                 <option>CHOOSE RUNDOWN</option>
+                <option>SPORTEN.SPXRT.ON-AIR</option>
+                <option>SPORTEN.QBOX.ON-AIR</option>
             </select>
             <select> 
                 <option>CHOOSE SHOW TYPE</option>
+                <option>sportsnyheder</option>
+                <option>Tennis</option>
+                <option>NBA</option>
+                <option>Handball</option>
             </select>
            
         </div>

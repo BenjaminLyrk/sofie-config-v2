@@ -1,7 +1,5 @@
 import React from 'react'
 import {createInfoItems} from './Helper'
-import {randomId} from './Helper'
-
 import settingsJson from '../data/galleries.json'
 
 

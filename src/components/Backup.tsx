@@ -33,7 +33,14 @@ class Backup extends React.Component<IProps, State>{
                     <button className="btnGrey">backup </button>
                     <button className="btnGrey">Export </button>
                     <button className="btnGrey">Upload </button>
-              </div>     
+              </div> 
+              <div className="btn-group colInfo">
+                <ul>
+                  <li>backup parts of config (Trio export style)</li>
+                  <li>import parts of config (Trio import style)</li>
+                  
+                </ul>
+                </div>    
              </div>    
            
            )
