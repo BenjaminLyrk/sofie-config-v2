@@ -47,13 +47,13 @@ class Studios extends React.Component<IProps, State>{
                    <div className="btn-group colInfo">
                    <h2>settings</h2>  
                        <ul>
-                         <li>number of kameras</li>
-                         <li>change inputs in vmx (vsm)</li>
-                         <li>number of host mics</li>
-                         <li>number of guests</li>
-                         <li>video/audio sends to the studio</li>
-                         <li>robotic system</li>
-                         <li>wall graphic system</li>
+                         <li>Number of cameras</li>
+                         <li>Change inputs in vmx (vsm)</li>
+                         <li>Number of host mics</li>
+                         <li>Number of guests</li>
+                         <li>Video/audio sends to the studio</li>
+                         <li>Robotic system</li>
+                         <li>Wall graphic system</li>
                          <li>AR system</li>
                        </ul>
                    </div>

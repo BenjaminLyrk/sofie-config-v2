@@ -47,7 +47,7 @@ class Gui extends React.Component<IProps, State>{
                <h2>area</h2>
                    <button className="btnGreen">settings</button>   
                    <button className="btnGreen">keyboard shortcuts</button>
-                   <button className="btnGreen">shelve</button>
+                   <button className="btnGreen">shelf</button>
                </div>
              
          </div>    
