@@ -70,7 +70,7 @@ class App extends  React.Component<IProps, IState> {
                     <form>
                         <select  onChange={() => this.handleLogin()} >
                             <option value="0">CHOOSE LOGIN</option>
-                            <option value="10">AFV D</option>
+                            <option value="10">AFV UD</option>
                             <option value="11">AFV C</option>
                             <option value="1">USER</option>
                             <option value="100">ADMIN</option>
