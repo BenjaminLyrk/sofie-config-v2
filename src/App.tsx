@@ -14,8 +14,8 @@ import Parts from './components/Parts';
 import Pieces from './components/Pieces';
 import Backup from './components/Backup';
 import Rundown from './components/Rundown';
-import Shows from './components/Shows';
-import Styles from './components/Styles';
+import Showstyle from './components/Showstyle';
+import ShowstyleVariant from './components/ShowstyleVariant';
 import Test from './components/Test';
 import Navigation from './components/Navigation';
 import Lost from './components/Lost';
@@ -53,8 +53,8 @@ class App extends  React.Component<IProps, IState> {
                   <Route exact path="/setup/Parts" component={Parts} />
                   <Route exact path="/setup/Pieces" component={Pieces} />
                   <Route exact path="/setup/Backup" component={Backup} />
-                  <Route exact path="/setup/Shows" component={Shows} />
-                  <Route exact path="/setup/Styles" component={Styles} />
+                  <Route exact path="/setup/Showstyle" component={Showstyle} />
+                  <Route exact path="/setup/ShowstyleVariant" component={ShowstyleVariant} />
                   <Route exact path="/rundown" component={Rundown} />
                   <Route exact path="/test" component={Test} />
                   <Route component={Lost} />
@@ -70,7 +70,7 @@ class App extends  React.Component<IProps, IState> {
                     <form>
                         <select  onChange={() => this.handleLogin()} >
                             <option value="0">CHOOSE LOGIN</option>
-                            <option value="10">AFV UD</option>
+                            <option value="10">AFV D</option>
                             <option value="11">AFV C</option>
                             <option value="1">USER</option>
                             <option value="100">ADMIN</option>

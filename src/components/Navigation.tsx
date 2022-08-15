@@ -29,10 +29,10 @@ class Navigation extends React.Component<IProps, State> {
                     <NavLink exact to="/setup/studios" activeClassName="active">Studios</NavLink>
                   </li>
                   <li key="Shows">
-                    <NavLink exact to="/setup/Shows" activeClassName="active">Shows</NavLink>
+                    <NavLink exact to="/setup/Showstyle" activeClassName="active">Showstyle</NavLink>
                   </li> 
                   <li key="Styles">
-                    <NavLink exact to="/setup/Styles" activeClassName="active">Styles</NavLink>
+                    <NavLink exact to="/setup/ShowstyleVariant" activeClassName="active">Showstyle variant</NavLink>
                   </li>
                   <li key="Gui">
                     <NavLink exact to="/setup/gui" activeClassName="active">Gui</NavLink>
