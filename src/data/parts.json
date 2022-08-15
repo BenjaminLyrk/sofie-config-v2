@@ -436,7 +436,7 @@
           },
           {
             "id": "4006",
-            "name": "Vignette",
+            "name": "Jingles",
             "area": [
               {
                 "name": "settings",
@@ -500,7 +500,7 @@
           },
           {
             "id": "4007",
-            "name": "misc",
+            "name": "Misc",
             "area": [
               {
                 "name": "folder 1",
@@ -531,11 +531,11 @@
             ]
           },
           {
-            "id": "4008",
-            "name": "router",
+            "id": "4009",
+            "name": "Telephone",
             "area": [
               {
-                "name": "folder 1",
+                "name": "Telephone 1",
                 "param": [
                   {
                     "divider": "",
@@ -548,7 +548,7 @@
                 ]
               },
               {
-                "name": "folder 2",
+                "name": "Telephone 2",
                 "param": [
                   {
                     "divider": "",

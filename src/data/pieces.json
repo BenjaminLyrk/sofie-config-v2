@@ -7,7 +7,7 @@
         "devices": [
           {
             "id": "4001",
-            "name": "overlay graphic",
+            "name": "Overlay graphic",
             "area": [
               {
                 "name": "Viz OVL",
@@ -33,6 +33,33 @@
                     "_id": "",
                     "name": "Sofie Layer",
                     "value": "graphic_overlay_ident",
+                    "help": "",
+                    "note": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4002",
+            "name": "Router",
+            "area": [
+              {
+                "name": "VSM",
+                "param": [
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "Load studie B",
+                    "value": "Macro 34",
+                    "help": "mouse",
+                    "note": ""
+                  },
+                  {
+                    "divider": "",
+                    "_id": "",
+                    "name": "port",
+                    "value": "14",
                     "help": "",
                     "note": ""
                   }

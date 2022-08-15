@@ -46,9 +46,9 @@ class Navigation extends React.Component<IProps, State> {
                   <li key="Pieces">
                     <NavLink exact to="/setup/Pieces" activeClassName="active">Pieces</NavLink>
                   </li>
-                  <li key="Backup">
+                  {/* <li key="Backup">
                     <NavLink exact to="/setup/backup" activeClassName="active">Backup</NavLink>
-                  </li>
+                  </li> */}
 
               </ul>
             </div>
