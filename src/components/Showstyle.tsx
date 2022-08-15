@@ -33,7 +33,7 @@ class Showstyle extends React.Component<IProps, State>{
                       <button className="btnBlue">nyh</button>
                    </div>
                    <div className="btn-group colInfo">
-                   <h2>settings</h2>  
+                   <h2 className="subtext">settings</h2>  
                        <ul>
                          <li>Graphic setup table incl. DVE folder</li>
                          <li>Skema table</li>

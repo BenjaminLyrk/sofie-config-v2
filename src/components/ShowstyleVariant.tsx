@@ -34,16 +34,14 @@ class ShowstyleVariant extends React.Component<IProps, State>{
                       <button className="btnBlue">Tennis</button>
                    </div>
                    <div className="btn-group colInfo">
-                   <h2>settings</h2>  
+                   <h2 className="subtext">Settings</h2>  
                    <ul>
-                         <li>
-                         Style only changes the look</li>
-                         <li>color on viz overlay</li>
-                         <li>dve style (background and color</li>
-                         <li>default wipe, mix ec.</li>
-                         <li>styles can change while running Sofie</li>
-                         
-                         
+                         <li>Graphic setup incl. DVE</li>
+                         <li>Default skema</li>
+                         <li>Default style</li>
+                         <li>Default wipe</li>
+                         <li>Default audiobed</li>
+                         <li>Action triggers override</li>
                        </ul>
                    </div>
                  
